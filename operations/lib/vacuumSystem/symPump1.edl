@@ -1,0 +1,1114 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 627
+y 478
+w 655
+h 391
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+endScreenProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 30
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 30
+w 80
+h 70
+lineColor index 15
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 37
+y 36
+w 65
+h 58
+lineColor index 15
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 50
+y 42
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 50
+  1 65
+}
+yPoints {
+  0 42
+  1 93
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 74
+y 42
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 89
+  1 74
+}
+yPoints {
+  0 42
+  1 93
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 57
+y 49
+w 4
+h 4
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 57
+  1 61
+}
+yPoints {
+  0 53
+  1 49
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 77
+y 49
+w 4
+h 4
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 77
+  1 81
+}
+yPoints {
+  0 49
+  1 53
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 61
+y 48
+w 15
+h 2
+lineColor index 15
+fill
+fillColor index 15
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 30
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 30
+w 80
+h 70
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 137
+y 36
+w 65
+h 58
+lineColor index 20
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 150
+y 42
+w 15
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 150
+  1 165
+}
+yPoints {
+  0 42
+  1 93
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 174
+y 42
+w 15
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 189
+  1 174
+}
+yPoints {
+  0 42
+  1 93
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 157
+y 49
+w 4
+h 4
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 157
+  1 161
+}
+yPoints {
+  0 53
+  1 49
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 177
+y 49
+w 4
+h 4
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 177
+  1 181
+}
+yPoints {
+  0 49
+  1 53
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 161
+y 48
+w 15
+h 2
+lineColor index 20
+fill
+fillColor index 20
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 28
+y 121
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 28
+y 121
+w 80
+h 70
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 127
+w 65
+h 57
+lineColor index 15
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 48
+y 133
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 48
+  1 63
+}
+yPoints {
+  0 133
+  1 184
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 72
+y 133
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 87
+  1 72
+}
+yPoints {
+  0 133
+  1 184
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 60
+y 148
+w 15
+h 13
+lineColor index 15
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 121
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 121
+w 80
+h 70
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 127
+w 66
+h 57
+lineColor index 20
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 148
+y 133
+w 14
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 148
+  1 162
+}
+yPoints {
+  0 133
+  1 184
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 172
+y 133
+w 14
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 186
+  1 172
+}
+yPoints {
+  0 133
+  1 184
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 160
+y 148
+w 14
+h 13
+lineColor index 20
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 206
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 206
+w 80
+h 70
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 74
+y 218
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 89
+  1 74
+}
+yPoints {
+  0 218
+  1 269
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 37
+y 212
+w 65
+h 57
+lineColor index 15
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 52
+y 230
+w 34
+h 0
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 52
+  1 86
+}
+yPoints {
+  0 230
+  1 230
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 50
+y 218
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 50
+  1 65
+}
+yPoints {
+  0 218
+  1 269
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 70
+y 210
+w 0
+h 24
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 70
+  1 70
+}
+yPoints {
+  0 210
+  1 234
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 129
+y 208
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 129
+y 208
+w 80
+h 70
+lineColor index 20
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 173
+y 220
+w 15
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 188
+  1 173
+}
+yPoints {
+  0 220
+  1 271
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 136
+y 214
+w 65
+h 57
+lineColor index 20
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 151
+y 232
+w 34
+h 0
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 151
+  1 185
+}
+yPoints {
+  0 232
+  1 232
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 149
+y 220
+w 15
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 149
+  1 164
+}
+yPoints {
+  0 220
+  1 271
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 169
+y 212
+w 0
+h 24
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 169
+  1 169
+}
+yPoints {
+  0 212
+  1 236
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 294
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 294
+w 80
+h 70
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 37
+y 300
+w 65
+h 57
+lineColor index 15
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 50
+y 306
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 50
+  1 65
+}
+yPoints {
+  0 306
+  1 357
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 74
+y 306
+w 15
+h 51
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 89
+  1 74
+}
+yPoints {
+  0 306
+  1 357
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 62
+y 321
+w 15
+h 13
+lineColor index 15
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 65
+y 312
+w 13
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 65
+  1 78
+}
+yPoints {
+  0 312
+  1 327
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 294
+w 80
+h 70
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 128
+y 294
+w 80
+h 70
+lineColor index 20
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 300
+w 65
+h 57
+lineColor index 20
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 148
+y 306
+w 15
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 148
+  1 163
+}
+yPoints {
+  0 306
+  1 357
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 172
+y 306
+w 15
+h 51
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 187
+  1 172
+}
+yPoints {
+  0 306
+  1 357
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 160
+y 321
+w 15
+h 13
+lineColor index 20
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 163
+y 312
+w 13
+h 15
+lineColor index 20
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 163
+  1 176
+}
+yPoints {
+  0 312
+  1 327
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

@@ -1,0 +1,11736 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 313
+y 118
+w 1600
+h 1173
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 70
+w 810
+h 1080
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 70
+w 800
+h 1080
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 70
+w 780
+h 1080
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 790
+y 245
+w 20
+h 75
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 160
+w 800
+h 980
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 160
+w 760
+h 980
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 780
+y 255
+w 40
+h 55
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 275
+w 330
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 70
+w 780
+h 1080
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 70
+w 780
+h 1080
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 275
+w 70
+h 70
+file "vacuumSystem/symVentValve"
+truthTable
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "CYC:VentValveOpen:CMD"
+}
+numPvs 1
+orientation "rotateCCW"
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 810
+y 160
+w 760
+h 980
+fgColor index 64
+bgColor index 64
+topShadowColor index 0
+botShadowColor index 0
+displaySource "menu"
+filePv "tabSelect"
+setSize
+sizeOfs 5
+numDsps 5
+displayFileName {
+  0 "vacuumSystem/vacblA.edl"
+  1 "vacuumSystem/vacblB.edl"
+  2 "vacuumSystem/vacblC.edl"
+  3 "vacuumSystem/vacblZ.edl"
+  4 "vacuumSystem/vacblA.edl"
+}
+menuLabel {
+  0 "Beamline A"
+  1 "Beamline B"
+  2 "Bealine C"
+  3 "Beamline Z"
+  4 "Beamline A"
+}
+replaceSymbols {
+  0 1
+  1 1
+  2 1
+  3 1
+}
+noScroll
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 450
+w 15
+h 430
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 450
+w 15
+h 430
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 865
+w 100
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 940
+w 160
+h 75
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 525
+y 940
+w 110
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 595
+y 940
+w 80
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+startAngle 269
+totalAngle 182
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 545
+w 160
+h 75
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 545
+w 120
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 595
+y 545
+w 80
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+startAngle 269
+totalAngle 182
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 545
+w 160
+h 75
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 545
+w 120
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 355
+y 545
+w 80
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+startAngle 269
+totalAngle 182
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 940
+w 160
+h 75
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 940
+w 110
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 355
+y 940
+w 80
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+startAngle 269
+totalAngle 182
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 940
+w 165
+h 75
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 21
+y 940
+w 114
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 93
+y 940
+w 83
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+startAngle 269
+totalAngle 182
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 545
+w 155
+h 75
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 545
+w 117
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 98
+y 545
+w 78
+h 75
+lineColor index 47
+fill
+fillColor index 68
+lineWidth 3
+startAngle 269
+totalAngle 182
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 590
+y 545
+w 85
+h 75
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset 25
+yPosOffset -50
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vacTurboPumpDisp"
+}
+setPosition {
+  0 "button"
+}
+symbols {
+  0 "PG=PGSWM"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 275
+w 315
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 450
+w 15
+h 105
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 280
+w 15
+h 95
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 280
+w 15
+h 95
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 110
+w 360
+h 50
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 280
+w 15
+h 95
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 815
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 610
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 475
+w 67
+h 39
+font "helvetica-bold-r-32.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "PG1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 290
+y 475
+w 67
+h 39
+font "helvetica-bold-r-32.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "PG2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 490
+y 475
+w 130
+h 39
+font "helvetica-bold-r-32.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "PGSWM"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 255
+w 5
+h 20
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 675
+w 20
+h 5
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 610
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 365
+y 675
+w 20
+h 5
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 630
+y 255
+w 5
+h 20
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 815
+w 5
+h 130
+lineColor index 86
+fill
+fillColor index 86
+lineWidth 0
+alarmPv "CALC\\\{A|(B&C)\}(PG2:MechPump:RVLineReady:Status,PG2:BackingPressure:Status,PG2:BackingValve:Open:Status)"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 590
+y 940
+w 85
+h 75
+file "vacuumSystem/symPump4.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "PGSWM:MechPump:On:Status"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 810
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 810
+y 110
+w 180
+h 50
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "tabSelect"
+pressValue "0"
+invisible
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 810
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 810
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 90
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 810
+y 120
+w 180
+h 40
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+visPv "tabSelect"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 820
+y 110
+w 160
+h 10
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 970
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 0
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+endGroup
+
+visPv "tabSelect"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 810
+y 110
+w 180
+h 50
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "Beamline A"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1390
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1390
+y 110
+w 180
+h 50
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "tabSelect"
+pressValue "3"
+invisible
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1390
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1390
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 90
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1390
+y 120
+w 180
+h 40
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1400
+y 110
+w 160
+h 10
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1550
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 0
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+endGroup
+
+visPv "tabSelect"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1390
+y 110
+w 180
+h 50
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "Beamline Z"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1196
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1196
+y 110
+w 180
+h 50
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "tabSelect"
+pressValue "2"
+invisible
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1196
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1196
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 90
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1196
+y 120
+w 180
+h 40
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1206
+y 110
+w 160
+h 10
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1356
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 0
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+endGroup
+
+visPv "tabSelect"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1196
+y 110
+w 180
+h 50
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "Beamline C"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1000
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1003
+y 110
+w 180
+h 50
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "tabSelect"
+pressValue "1"
+invisible
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1003
+y 110
+w 180
+h 50
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1003
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 90
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1003
+y 120
+w 180
+h 40
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1013
+y 110
+w 160
+h 10
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1163
+y 110
+w 20
+h 20
+lineColor index 64
+fill
+fillColor index 64
+startAngle 0
+totalAngle 90
+fillMode "pie"
+endObjectProperties
+
+endGroup
+
+visPv "tabSelect"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1003
+y 110
+w 180
+h 50
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "Beamline B"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 25
+y 550
+w 80
+h 70
+file "vacuumSystem/symOffReady"
+truthTable
+numStates 3
+minValues {
+  1 3
+  2 2
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+}
+controlPvs {
+  0 "PG1:DiffPump:Ready:Status"
+  1 "PG1:DiffPump:On:Status"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 450
+w 15
+h 105
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 25
+y 945
+w 80
+h 70
+file "vacuumSystem/symOffReady"
+truthTable
+numStates 5
+minValues {
+  4 1
+}
+maxValues {
+  3 1
+  4 2
+}
+controlPvs {
+  0 "PG1:MechPump:On:Status"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 945
+w 80
+h 70
+file "vacuumSystem/symOffReady"
+truthTable
+numStates 5
+minValues {
+  4 1
+}
+maxValues {
+  3 1
+  4 2
+}
+controlPvs {
+  0 "PG2:MechPump:On:Status"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 530
+y 945
+w 80
+h 70
+file "vacuumSystem/symOffReady"
+truthTable
+numStates 5
+minValues {
+  4 1
+}
+maxValues {
+  3 1
+  4 2
+}
+controlPvs {
+  0 "PGSWM:MechPump:On:Status"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 280
+y 550
+w 80
+h 70
+file "vacuumSystem/symOffReady"
+truthTable
+numStates 3
+minValues {
+  1 3
+  2 2
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+}
+controlPvs {
+  0 "PG2:DiffPump:Ready:Status"
+  1 "PG2:DiffPump:On:Status"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 630
+y 280
+w 5
+h 95
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(PGSWM:Tank:Roughing:Status,PGSWM:HiVac:Status)"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 550
+w 80
+h 70
+file "vacuumSystem/symOffReady"
+truthTable
+numStates 3
+minValues {
+  1 2
+  2 1
+}
+maxValues {
+  0 1
+  1 4
+  2 2
+}
+controlPvs {
+  0 "PGSWM:TurboPump:StartMode:Status"
+  1 "PGSWM:TurboPump:Ready:Status"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 210
+y 110
+w 360
+h 50
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "Vacuum Groups 1,2, and SWM"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 515
+y 515
+w 110
+h 30
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 21
+visPv "PGSWM:TurboPump:Fault"
+visMin "1"
+visMax "2"
+value {
+  "Fault"
+}
+border
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 55
+y 1075
+w 217
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "PG1:MechPump:Overload:Status"
+visMin "1"
+visMax "2"
+value {
+  "Machine Pump 1 Overload"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 70
+y 1090
+w 170
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "PG1:DiffPump:FlowOk:Status"
+visMin "0"
+visMax "1"
+value {
+  "Diffusion Pump Flow"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 110
+y 1105
+w 93
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "PG1:BaffleFlow:Ok:Status"
+visMin "0"
+visMax "1"
+value {
+  "Baffle Flow"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 360
+y 1105
+w 93
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "PG2:BaffleFlow:Ok:Status"
+visMin "0"
+visMax "1"
+value {
+  "Baffle Flow"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 320
+y 1090
+w 170
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "PG2:DiffPump:FlowOk:Status"
+visMin "0"
+visMax "1"
+value {
+  "Diffusion Pump Flow"
+}
+autoSize
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 735
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PGSWM:BackingValve:Open:Status"
+  1 "PGSWM:BackingValve:Closed:Status"
+  2 "PGSWM:BackingValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 465
+y 230
+w 38
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+value {
+  "BEV"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 25
+y 1025
+w 75
+h 25
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 35
+visPv "PG1:TimeOut:Status"
+visMin "1"
+visMax "2"
+value {
+  "Timeout"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 285
+y 1025
+w 75
+h 25
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 35
+visPv "PG2:TimeOut:Status"
+visMin "1"
+visMax "2"
+value {
+  "Timeout"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 525
+y 1025
+w 75
+h 25
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 35
+visPv "PGSWM:TimeOut:Status"
+visMin "1"
+visMax "2"
+value {
+  "Timeout"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 1600
+h 60
+font "helvetica-bold-i-32.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 53
+value {
+  "Vacuum System Status"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 815
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 870
+w 90
+h 5
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{((A&D)|(B&!C)|(E&C))\}(PG1:BackingPressure:Status,PG1:MechPump:RVLineReady:Status,PG1:RoughingValve:Open:Status,PG1:BackingValve:Open:Status,CYC:Tank:Roughing:Status)"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 815
+w 5
+h 130
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{((A&D)|(B&!C)|(E&C))\}(PG1:BackingPressure:Status,PG1:MechPump:RVLineReady:Status,PG1:RoughingValve:Open:Status,PG1:BackingValve:Open:Status,CYC:Tank:Roughing:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 140
+y 865
+w 75
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 140
+y 865
+w 75
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 140
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 155
+  1 140
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 155
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 170
+  1 155
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 170
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 185
+  1 170
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 185
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 200
+  1 185
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 200
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 215
+  1 200
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|(B&!C)\}(PG1:RoughingValve:Open:Status,PG1:BackingValve:Open:Status,PG1:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 815
+w 15
+h 130
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 815
+w 15
+h 130
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 815
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 815
+  1 831
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 831
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 831
+  1 847
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 846
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 846
+  1 862
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 862
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 862
+  1 878
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 877
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 877
+  1 893
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 893
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 893
+  1 909
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 909
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 909
+  1 925
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 924
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 924
+  1 940
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|(B&!C)\}(PG1:RoughingValve:Open:Status,PG1:BackingValve:Open:Status,PG1:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 450
+w 5
+h 420
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{((A&D)|(B&!C)|(C&E))\}(PG1:BackingPressure:Status,PG1:MechPump:RVLineReady:Status,PG1:RoughingValve:Open:Status,PG1:BackingValve:Open:Status,CYC:Tank:Roughing:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 450
+w 15
+h 430
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 450
+w 15
+h 430
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 450
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 450
+  1 465
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 465
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 465
+  1 480
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 480
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 480
+  1 495
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 495
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 495
+  1 510
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 510
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 510
+  1 525
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 525
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 525
+  1 540
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 540
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 540
+  1 555
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 555
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 555
+  1 570
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 570
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 570
+  1 585
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 585
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 585
+  1 600
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 600
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 600
+  1 615
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 615
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 615
+  1 630
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 630
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 630
+  1 645
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 645
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 645
+  1 660
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 660
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 660
+  1 675
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 675
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 675
+  1 690
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 690
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 690
+  1 705
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 705
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 705
+  1 720
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 720
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 720
+  1 735
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 735
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 735
+  1 750
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 750
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 750
+  1 765
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 765
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 765
+  1 780
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 780
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 780
+  1 795
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 795
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 795
+  1 810
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 810
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 810
+  1 825
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 825
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 825
+  1 840
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 840
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 840
+  1 855
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 855
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 855
+  1 870
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 220
+y 870
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 220
+}
+yPoints {
+  0 870
+  1 880
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|(B&!C)\}(PG1:RoughingValve:Open:Status,PG1:BackingValve:Open:Status,PG1:BackingPressure:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 610
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 610
+w 5
+h 130
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A\}(PG1:BackingPressure:Status,PG1:BackingValve:Open:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 615
+w 15
+h 125
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 615
+w 15
+h 125
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 615
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 615
+  1 630
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 630
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 630
+  1 645
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 645
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 645
+  1 660
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 660
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 660
+  1 675
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 675
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 675
+  1 690
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 690
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 690
+  1 705
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 705
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 705
+  1 720
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 720
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 720
+  1 735
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A&(B&!C)\}(PG1:MechPump:RVLineReady:Status,PG1:BackingValve:Open:Status,PG1:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 735
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PG1:BackingValve:Open:Status"
+  1 "PG1:BackingValve:Closed:Status"
+  2 "PG1:BackingValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 445
+w 15
+h 105
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 445
+w 5
+h 105
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*((B&D)|(C&E))\}(PG1:BackingPressure:Status,CYC:HiVac:Status,PG1:DiffPump:Ready:Status,PG1:HiVacValve:Open:Status,PG1:HiVacValve:Closed:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 450
+w 15
+h 100
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 450
+w 15
+h 100
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 450
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 135
+  1 125
+}
+yPoints {
+  0 450
+  1 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 460
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 460
+  1 475
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 475
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 475
+  1 490
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 490
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 490
+  1 505
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 505
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 505
+  1 520
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 520
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 520
+  1 535
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 535
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 535
+  1 550
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A&!B\}(PG1:HiVacValve:Open:Status,CYC:HiVac:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 280
+w 15
+h 95
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 275
+w 15
+h 100
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 280
+w 5
+h 95
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(CYC:Tank:Roughing:Status,CYC:HiVac:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 290
+w 15
+h 85
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 300
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 315
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 330
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 345
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 360
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 290
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 225
+  1 215
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+endGroup
+
+visPv "PG1:RoughingValve:Open:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 285
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 285
+w 15
+h 85
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 285
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 225
+  1 215
+}
+yPoints {
+  0 285
+  1 295
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 295
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 295
+  1 310
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 310
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 310
+  1 325
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 325
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 325
+  1 340
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 340
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 340
+  1 355
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 215
+y 355
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 230
+  1 215
+}
+yPoints {
+  0 355
+  1 370
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PG1:HiVacValve:Open:Status,CYC:HiVac:Status,PG2:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 280
+w 5
+h 95
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(CYC:Tank:Roughing:Status,CYC:HiVac:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 290
+w 15
+h 85
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 300
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 315
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 330
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 345
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 360
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 290
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 395
+  1 385
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+endGroup
+
+visPv "PG1:RoughingValve:Open:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 290
+w 15
+h 85
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 290
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 395
+  1 385
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 300
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 315
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 330
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 345
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 360
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PG1:HiVacValve:Open:Status,CYC:HiVac:Status,PG2:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 370
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PG1:HiVacValve:Open:Status"
+  1 "PG1:HiVacValve:Closed:Status"
+  2 "PG1:HiVacValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 190
+y 370
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PG1:RoughingValve:Open:Status"
+  1 "PG1:RoughingValve:Closed:Status"
+  2 "PG1:RoughingValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 90
+y 545
+w 85
+h 75
+file "vacuumSystem/symPump.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "PG1:DiffPump:On:Status"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 90
+y 940
+w 85
+h 75
+file "vacuumSystem/symPump3.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "PG1:MechPump:On:Status"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 450
+w 5
+h 105
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*((B&D)|(C&E))\}(PG2:BackingPressure:Status,CYC:HiVac:Status,PG2:DiffPump:Ready:Status,PG2:HiVacValve:Open:Status,PG2:HiVacValve:Closed:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 450
+w 15
+h 100
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 450
+w 15
+h 100
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 450
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 395
+  1 385
+}
+yPoints {
+  0 450
+  1 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 460
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 460
+  1 475
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 475
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 475
+  1 490
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 490
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 490
+  1 505
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 505
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 505
+  1 520
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 520
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 520
+  1 535
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 535
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 535
+  1 550
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A&!B\}(PG2:HiVacValve:Open:Status,CYC:HiVac:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 370
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PG2:HiVacValve:Open:Status"
+  1 "PG2:HiVacValve:Closed:Status"
+  2 "PG2:HiVacValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 615
+w 5
+h 130
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "PG2:BackingPressure:Status"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 615
+w 15
+h 125
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 615
+w 15
+h 125
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 615
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 615
+  1 630
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 630
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 630
+  1 645
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 645
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 645
+  1 660
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 660
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 660
+  1 675
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 675
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 675
+  1 690
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 690
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 690
+  1 705
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 705
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 705
+  1 720
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 720
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 720
+  1 735
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A&(B&!C)\}(PG2:MechPump:RVLineReady:Status,PG2:BackingValve:Open:Status,PG2:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 545
+w 85
+h 75
+file "vacuumSystem/symPump.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "PG2:DiffPump:On:Status"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 815
+w 15
+h 130
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 385
+y 815
+w 15
+h 130
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 815
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 815
+  1 831
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 831
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 831
+  1 847
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 846
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 846
+  1 862
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 862
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 862
+  1 878
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 877
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 877
+  1 893
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 893
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 893
+  1 909
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 909
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 909
+  1 925
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 385
+y 924
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 400
+  1 385
+}
+yPoints {
+  0 924
+  1 940
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A&!B&C)\}(PG2:BackingValve:Open:Status,PG2:BackingPressure:Status,PG2:MechPump:RVLineReady:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 940
+w 85
+h 75
+file "vacuumSystem/symPump3.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "PG2:MechPump:On:Status"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 735
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PG2:BackingValve:Open:Status"
+  1 "PG2:BackingValve:Closed:Status"
+  2 "PG2:BackingValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 630
+y 1050
+w 105
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PGSWM:OffMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Off"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 630
+y 1050
+w 105
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PGSWM:PumpMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Pump"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 630
+y 1050
+w 130
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PGSWM:StandByMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Standby"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 400
+y 1050
+w 105
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PG2:OffMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Off"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 400
+y 1050
+w 105
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PG2:PumpMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Pump"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 400
+y 1050
+w 130
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PG2:StandByMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Standby"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 140
+y 1050
+w 105
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PG1:OffMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Off"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 140
+y 1050
+w 105
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PG1:PumpMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Pump"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 140
+y 1050
+w 130
+h 20
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "PG1:StandByMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Standby"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 865
+w 100
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 815
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 635
+y 870
+w 90
+h 5
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{((A&D)|(B&!C)|(E&C))\}(PGSWM:BackingPressure:Status,PGSWM:MechPump:RVLineReady:Status,PGSWM:RoughingValve:Open:Status,PGSWM:BackingValve:Open:Status,PGSWM:Tank:Roughing:Status)"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 630
+y 815
+w 5
+h 130
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{((A&D)|(B&!C)|(E&C))\}(PGSWM:BackingPressure:Status,PGSWM:MechPump:RVLineReady:Status,PGSWM:RoughingValve:Open:Status,PGSWM:BackingValve:Open:Status,PGSWM:Tank:Roughing:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 640
+y 865
+w 75
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 640
+y 865
+w 75
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 640
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 655
+  1 640
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 655
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 670
+  1 655
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 670
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 685
+  1 670
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 685
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 700
+  1 685
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 700
+y 865
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 715
+  1 700
+}
+yPoints {
+  0 865
+  1 880
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|(B&!C)\}(PGSWM:RoughingValve:Open:Status,PGSWM:BackingValve:Open:Status,PGSWM:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 815
+w 15
+h 130
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 815
+w 15
+h 130
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 815
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 815
+  1 831
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 831
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 831
+  1 847
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 846
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 846
+  1 862
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 862
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 862
+  1 878
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 877
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 877
+  1 893
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 893
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 893
+  1 909
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 909
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 909
+  1 925
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 924
+w 15
+h 16
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 924
+  1 940
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|(B&!C)\}(PGSWM:RoughingValve:Open:Status,PGSWM:BackingValve:Open:Status,PGSWM:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 720
+y 450
+w 5
+h 420
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{((A&D)|(B&!C)|(C&E))\}(PGSWM:BackingPressure:Status,PGSWM:MechPump:RVLineReady:Status,PGSWM:RoughingValve:Open:Status,PGSWM:BackingValve:Open:Status,PGSWM:Tank:Roughing:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 450
+w 15
+h 430
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 450
+w 15
+h 430
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 450
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 450
+  1 465
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 465
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 465
+  1 480
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 480
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 480
+  1 495
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 495
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 495
+  1 510
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 510
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 510
+  1 525
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 525
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 525
+  1 540
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 540
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 540
+  1 555
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 555
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 555
+  1 570
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 570
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 570
+  1 585
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 585
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 585
+  1 600
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 600
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 600
+  1 615
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 615
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 615
+  1 630
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 630
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 630
+  1 645
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 645
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 645
+  1 660
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 660
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 660
+  1 675
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 675
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 675
+  1 690
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 690
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 690
+  1 705
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 705
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 705
+  1 720
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 720
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 720
+  1 735
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 735
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 735
+  1 750
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 750
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 750
+  1 765
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 765
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 765
+  1 780
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 780
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 780
+  1 795
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 795
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 795
+  1 810
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 810
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 810
+  1 825
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 825
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 825
+  1 840
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 840
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 840
+  1 855
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 855
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 855
+  1 870
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 720
+y 870
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 720
+}
+yPoints {
+  0 870
+  1 880
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|(B&!C)\}(PGSWM:RoughingValve:Open:Status,PGSWM:BackingValve:Open:Status,PGSWM:BackingPressure:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 630
+y 610
+w 5
+h 130
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A\}(PGSWM:BackingPressure:Status,PG1:BackingValve:Open:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 615
+w 15
+h 125
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 615
+w 15
+h 125
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 615
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 615
+  1 630
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 630
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 630
+  1 645
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 645
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 645
+  1 660
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 660
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 660
+  1 675
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 675
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 675
+  1 690
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 690
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 690
+  1 705
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 705
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 705
+  1 720
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 720
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 720
+  1 735
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A&(B&!C)\}(PGSWM:MechPump:RVLineReady:Status,PGSWM:BackingValve:Open:Status,PGSWM:BackingPressure:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 280
+w 315
+h 5
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(PGSWM:Tank:Roughing:Status,PGSWM:HiVac:Status)"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 720
+y 280
+w 5
+h 95
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(PGSWM:Tank:Roughing:Status,PGSWM:HiVac:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 275
+w 315
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 275
+w 315
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 628
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 643
+  1 628
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 643
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 658
+  1 643
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 658
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 673
+  1 658
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 673
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 688
+  1 673
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 687
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 702
+  1 687
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 702
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 717
+  1 702
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 717
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 732
+  1 717
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 732
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 747
+  1 732
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 746
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 761
+  1 746
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 761
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 776
+  1 761
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 776
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 791
+  1 776
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 791
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 806
+  1 791
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 805
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 820
+  1 805
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 820
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 835
+  1 820
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 614
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 629
+  1 614
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 599
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 614
+  1 599
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 584
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 599
+  1 584
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 569
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 584
+  1 569
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 554
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 569
+  1 554
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 540
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 555
+  1 540
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 525
+y 275
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 540
+  1 525
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 520
+y 275
+w 5
+h 5
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 525
+  1 520
+}
+yPoints {
+  0 275
+  1 280
+}
+endObjectProperties
+
+endGroup
+
+visPv "PGSWM:RoughingValve:Open:Status"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 275
+w 320
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 520
+y 275
+w 320
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 612
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 627
+  1 612
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 626
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 641
+  1 626
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 642
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 657
+  1 642
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 657
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 672
+  1 657
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 673
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 688
+  1 673
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 687
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 702
+  1 687
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 703
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 718
+  1 703
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 718
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 733
+  1 718
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 734
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 749
+  1 734
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 748
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 763
+  1 748
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 764
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 779
+  1 764
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 779
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 794
+  1 779
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 795
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 810
+  1 795
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 809
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 824
+  1 809
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 825
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 840
+  1 825
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 596
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 611
+  1 596
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 581
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 596
+  1 581
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 565
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 580
+  1 565
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 551
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 566
+  1 551
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 520
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 535
+  1 520
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 535
+y 275
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 550
+  1 535
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PGSWM:HiVacValve:Open:Status,PGSWM:HiVac:Status,PGSWM:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 290
+w 15
+h 85
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 300
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 315
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 330
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 345
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 360
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 290
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 635
+  1 625
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+endGroup
+
+visPv "PGSWM:RoughingValve:Open:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 290
+w 15
+h 85
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 290
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 635
+  1 625
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 300
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 315
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 330
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 345
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 360
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PGSWM:HiVacValve:Open:Status,PGSWM:HiVac:Status,PGSWM:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 290
+w 15
+h 85
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 300
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 315
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 330
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 345
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 360
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 290
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 725
+  1 715
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+endGroup
+
+visPv "PGSWM:RoughingValve:Open:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 290
+w 15
+h 85
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 290
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 725
+  1 715
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 300
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 315
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 330
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 345
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 715
+y 360
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 730
+  1 715
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PGSWM:HiVacValve:Open:Status,PGSWM:HiVac:Status,PGSWM:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 600
+y 370
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PGSWM:HiVacValve:Open:Status"
+  1 "PGSWM:HiVacValve:Closed:Status"
+  2 "PGSWM:HiVacValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 690
+y 370
+w 75
+h 85
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "PGSWM:RoughingValve:Open:Status"
+  1 "PGSWM:RoughingValve:Closed:Status"
+  2 "PGSWM:RoughingValveOpen:CMD"
+}
+numPvs 3
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 446
+y 250
+w 85
+h 75
+file "vacuumSystem/symValveExp"
+truthTable
+numStates 8
+minValues {
+  0 5
+  1 2
+  2 7
+  3 3
+  4 4
+  6 6
+  7 1
+}
+maxValues {
+  0 6
+  1 3
+  2 8
+  3 4
+  4 5
+  5 1
+  6 7
+  7 2
+}
+controlPvs {
+  0 "BEV:Open:Status"
+  1 "BEV:Closed:Status"
+  2 "BEV:Open:CMD"
+}
+numPvs 3
+orientation "rotateCW"
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 630
+y 450
+w 5
+h 105
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*((B&D)|(C&E))\}(PGSWM:BackingPressure:Status,PGSWM:HiVac:Status,PGSWM:TurboPump:Ready:Status,PGSWM:HiVacValve:Open:Status,PGSWM:HiVacValve:Closed:Status)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 450
+w 15
+h 100
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 450
+w 15
+h 100
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 450
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 635
+  1 625
+}
+yPoints {
+  0 450
+  1 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 460
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 460
+  1 475
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 475
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 475
+  1 490
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 490
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 490
+  1 505
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 505
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 505
+  1 520
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 520
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 520
+  1 535
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 625
+y 535
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 640
+  1 625
+}
+yPoints {
+  0 535
+  1 550
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A&!B\}(PGSWM:HiVacValve:Open:Status,PGSWM:HiVac:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 590
+y 545
+w 85
+h 75
+file "vacuumSystem/symPump2.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "CALC\\\{A|B\}(PGSWM:TurboPump:Ready:Status,PGSWM:TurboPump:StartMode:Status)"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 300
+y 1075
+w 217
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "PG2:MechPump:Overload:Status"
+visMin "1"
+visMax "2"
+value {
+  "Machine Pump 2 Overload"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 1050
+w 53
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mode:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 340
+y 1050
+w 53
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mode:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 570
+y 1050
+w 53
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mode:"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 655
+w 103
+h 45
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 675
+w 15
+h 5
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 657
+w 100
+h 45
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 25
+y 665
+w 95
+h 35
+controlPv "VAC:PG1:PressureA1:PiraniFV"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 25
+y 660
+w 95
+h 10
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 59
+value {
+  "mbar"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 655
+w 95
+h 45
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 277
+y 657
+w 95
+h 45
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 280
+y 665
+w 90
+h 35
+controlPv "VAC:PG2:PressureA1:PiraniFV"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 280
+y 660
+w 90
+h 10
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 59
+value {
+  "mbar"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 655
+w 100
+h 45
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 512
+y 657
+w 100
+h 45
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 515
+y 665
+w 95
+h 35
+controlPv "VAC:PGSWM:PressureA1:PiraniFV"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 515
+y 660
+w 95
+h 10
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 59
+value {
+  "mbar"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 185
+w 105
+h 72
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 185
+w 105
+h 72
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 185
+w 79
+h 15
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 241
+y 188
+w 58
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 58
+bgColor index 0
+useDisplayBg
+visPv "CYC:PenningGauge:Status"
+visMin "1"
+visMax "2"
+value {
+  "Penning"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 241
+y 188
+w 41
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 58
+bgColor index 0
+useDisplayBg
+visPv "CYC:PenningGauge:Status"
+visMin "0"
+visMax "1"
+value {
+  "Pirani"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 220
+w 95
+h 25
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 238
+y 220
+w 100
+h 35
+controlPv "VAC:PG1:PressureB1:PenningTank"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+endGroup
+
+visPv "CYC:PenningGauge:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 250
+y 220
+w 83
+h 25
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 238
+y 220
+w 100
+h 35
+controlPv "VAC:PG1:PressureA2:PiraniTank"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+endGroup
+
+visPv "CYC:PenningGauge:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 238
+y 210
+w 100
+h 12
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 59
+value {
+  "mbar"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 580
+y 185
+w 105
+h 72
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 580
+y 185
+w 105
+h 72
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 185
+w 79
+h 15
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 586
+y 188
+w 58
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 58
+bgColor index 0
+useDisplayBg
+visPv "PGSWM:PenningGauge:Status"
+visMin "1"
+visMax "2"
+value {
+  "Penning"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 586
+y 188
+w 41
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 58
+bgColor index 0
+useDisplayBg
+visPv "PGSWM:PenningGauge:Status"
+visMin "0"
+visMax "1"
+value {
+  "Pirani"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 595
+y 220
+w 83
+h 25
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 583
+y 220
+w 100
+h 35
+controlPv "VAC:PGSWM:PressureA2:PiraniTank"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+endGroup
+
+visPv "PGSWM:PenningGauge:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 220
+w 83
+h 25
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 583
+y 220
+w 100
+h 35
+controlPv "VAC:PGSWM:PressureB1:PenningTank"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+endObjectProperties
+
+endGroup
+
+visPv "PGSWM:PenningGauge:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 583
+y 210
+w 100
+h 12
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 59
+value {
+  "mbar"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 235
+y 225
+w 76
+h 16
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 58
+visPv "VAC:PG1:VacuumGauge:CommError.VAL"
+visMin "0.5"
+visMax "1.5"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 280
+y 670
+w 76
+h 16
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 58
+visPv "VAC:PG2:VacuumGauge:CommError.VAL"
+visMin "0.5"
+visMax "1.5"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 585
+y 225
+w 76
+h 16
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 58
+visPv "VAC:PGSWM:VacuumGauge:CommError.VAL"
+visMin "0.5"
+visMax "1.5"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 25
+y 670
+w 76
+h 16
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 58
+visPv "VAC:PG1:VacuumGauge:CommError.VAL"
+visMin "0.5"
+visMax "1.5"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 515
+y 670
+w 76
+h 16
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 25
+bgColor index 58
+visPv "VAC:PGSWM:VacuumGauge:CommError.VAL"
+visMin "0.5"
+visMax "1.5"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 280
+w 5
+h 95
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(CYC:Tank:Roughing:Status,CYC:HiVac:Status)"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 280
+w 326
+h 4
+lineColor index 87
+fill
+fillColor index 87
+lineWidth 0
+alarmPv "CALC\\\{A+3*B\}(CYC:Tank:Roughing:Status,CYC:HiVac:Status,)"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 275
+w 326
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 275
+w 326
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 237
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 253
+  1 237
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 252
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 268
+  1 252
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 268
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 284
+  1 268
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 283
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 299
+  1 283
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 298
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 314
+  1 298
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 314
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 330
+  1 314
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 329
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 345
+  1 329
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 344
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 360
+  1 344
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 359
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 375
+  1 359
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 375
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 391
+  1 375
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 390
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 406
+  1 390
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 405
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 421
+  1 405
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 421
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 437
+  1 421
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 435
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 451
+  1 435
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 222
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 238
+  1 222
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 206
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 222
+  1 206
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 192
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 208
+  1 192
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 176
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 192
+  1 176
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 160
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 176
+  1 160
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 146
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 162
+  1 146
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 130
+y 275
+w 16
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 146
+  1 130
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 275
+w 5
+h 5
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 130
+  1 125
+}
+yPoints {
+  0 275
+  1 280
+}
+endObjectProperties
+
+endGroup
+
+visPv "PG1:RoughingValve:Open:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 275
+w 327
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 275
+w 327
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 219
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 235
+  1 219
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 234
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 250
+  1 234
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 249
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 265
+  1 249
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 265
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 281
+  1 265
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 281
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 297
+  1 281
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 296
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 312
+  1 296
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 312
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 328
+  1 312
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 328
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 344
+  1 328
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 343
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 359
+  1 343
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 358
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 374
+  1 358
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 374
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 390
+  1 374
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 390
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 406
+  1 390
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 406
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 422
+  1 406
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 420
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 436
+  1 420
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 436
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 452
+  1 436
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 203
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 219
+  1 203
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 187
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 203
+  1 187
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 171
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 187
+  1 171
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 157
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 173
+  1 157
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 141
+  1 125
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 141
+y 275
+w 16
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 157
+  1 141
+}
+yPoints {
+  0 275
+  1 290
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PG1:HiVacValve:Open:Status,CYC:HiVac:Status,PG2:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 290
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 290
+w 15
+h 85
+lineColor index 19
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 300
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 300
+  1 315
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 315
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 315
+  1 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 330
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 330
+  1 345
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 345
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 345
+  1 360
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 360
+w 15
+h 15
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 360
+  1 375
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 290
+w 10
+h 10
+lineColor index 19
+fillColor index 0
+lineWidth 3
+numPoints 2
+xPoints {
+  0 135
+  1 125
+}
+yPoints {
+  0 290
+  1 300
+}
+endObjectProperties
+
+endGroup
+
+visPv "PG1:RoughingValve:Open:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 285
+w 15
+h 85
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 285
+w 15
+h 85
+lineColor index 15
+fillColor index 0
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 285
+w 10
+h 10
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 135
+  1 125
+}
+yPoints {
+  0 285
+  1 295
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 295
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 295
+  1 310
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 310
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 310
+  1 325
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 325
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 325
+  1 340
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 340
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 340
+  1 355
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 125
+y 355
+w 15
+h 15
+lineColor index 15
+fillColor index 0
+lineWidth 2
+numPoints 2
+xPoints {
+  0 140
+  1 125
+}
+yPoints {
+  0 355
+  1 370
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{(A|C)&!B\}(PG1:HiVacValve:Open:Status,CYC:HiVac:Status,PG2:HiVacValve:Open:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+

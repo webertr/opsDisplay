@@ -1,0 +1,71 @@
+#! /bin/sh
+#
+### BEGIN INIT INFO
+# Provides:          operations console log
+# Should-Start:      psi ioc
+# Required-Start:    $all
+# Required-Stop:     $all
+# Default-Start:     3
+# Default-Stop:      0 1 6
+# Short-Description: start of operations console logging
+# Description:       more information needed
+### END INIT INFO
+#
+# the following lines were taken from the 'reboot' script'
+# it was not possible to determine if these are to
+# be executed prior to reboot, or immediately after
+# reboot.  these need to be moved, and reworked.
+
+# script should really start here
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/cnts/epics/operations/sbin:usr/local/cnts/epics/operations/bin
+FPATH="/usr/local/cnts/epics/operations/var"
+# source EPICS
+if [ -f /usr/local/cnts/epics/base/startup/Site.bashrc ]; then
+    . /usr/local/cnts/epics/base/startup/Site.bashrc
+fi
+
+SCRIPT=/usr/local/cnts/epics/operations/sbin/opslog
+
+#######################################################
+# Functions 
+#######################################################
+do_start()
+{
+	echo "Starting Operations Console logging..."
+	if [ -x $SCRIPT ]; then
+echo -n "invoking $SCRIPT ..."
+		$SCRIPT
+	else
+		logger -i -s "epics operations log script failed at start"
+		echo -n "epics operations log script failed at start"
+	fi 
+}
+
+do_stop()
+{
+	logger -i -s "epics operations log script invoked at stop"
+}
+
+#######################################################
+# defines how the script responds with 'command line' 
+# parameters.   required:  stop  and start 
+#######################################################
+
+case "$1" in
+  start)
+        do_start
+        ;;
+  stop)
+        do_stop
+        ;;
+  restart|force-reload)
+        do_stop
+        sleep 1
+        do_start
+        ;;
+  *)
+        echo "Usage: $0 {start|stop|restart|force-reload} " >&2
+        exit 3
+        ;;
+esac

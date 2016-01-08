@@ -1,0 +1,661 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 398
+y 241
+w 225
+h 670
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 28
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Magnet Control"
+showGrid
+snapToGrid
+gridSize 1
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 50
+w 225
+h 630
+lineColor index 63
+fill
+fillColor index 63
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 460
+w 215
+h 125
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 55
+w 215
+h 335
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 230
+h 40
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 35
+value {
+  "Circular Coil6"
+}
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 45
+y 205
+w 165
+h 45
+controlPv "CC:Coil6:Curr:Read.VAL"
+fgColor index 14
+fgAlarm
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+lineWidth 0
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 40
+y 140
+w 170
+h 45
+controlPv "CC:Coil6:Curr:Set"
+precision 2
+fgColor index 91
+bgColor index 14
+colorPv "CALC\\\{C*(A+2*B)\}(CC:Coil6:PREADPSET:PDIFF:Calc2,CC:Coil6:PREADPSET:PDIFF:Calc,CC:1-6:On:Status)"
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 88
+y 190
+w 46
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PRead"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 95
+y 125
+w 33
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PSet"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 90
+y 57
+w 42
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PHigh"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 75
+w 200
+h 45
+controlPv "CC:Coil6:Curr:PHIGH"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 270
+w 195
+h 45
+controlPv "CC:Coil6:Curr:PLOW"
+fgColor index 16
+bgColor index 49
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 79
+y 255
+w 64
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Low Limit"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 140
+w 35
+h 45
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 140
+w 35
+h 45
+font "courier-bold-r-24.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 14
+visPv "CC:Coil6:PolPosRequest"
+visMin "0"
+visMax "1"
+value {
+  "-"
+}
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 140
+w 35
+h 45
+font "courier-bold-r-24.0"
+fontAlign "center"
+fgColor index 16
+bgColor index 14
+visPv "CC:Coil6:PolPosRequest"
+visMin "1"
+visMax "2"
+value {
+  "+"
+}
+lineWidth 3
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 205
+w 35
+h 45
+file "symPol.edl"
+truthTable
+numStates 6
+minValues {
+  1 5
+  2 2
+  3 6
+  4 4
+  5 3
+}
+maxValues {
+  0 2
+  1 6
+  2 3
+  3 8
+  4 5
+  5 4
+}
+controlPvs {
+  0 "CC:Coil6:Polarity:Positive.VAL"
+  1 "CC:Coil6:Polarity:Negative.VAL"
+  2 "CC:Coil6:PolPosRequest"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 3
+bgColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 470
+w 215
+h 40
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Polarity"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1
+y 0
+w 15
+h 40
+lineColor index 29
+fill
+fillColor index 68
+lineWidth 2
+numPoints 4
+xPoints {
+  0 1
+  1 1
+  2 16
+  3 1
+}
+yPoints {
+  0 0
+  1 40
+  2 20
+  3 0
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 520
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:Coil6:SetPolNeg.PROC"
+pressValue "1"
+onLabel "Turn Negative"
+offLabel "Turn Negative"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 70
+y 520
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:Coil6:SetPolPos.PROC"
+pressValue "1"
+onLabel "Turn Positive"
+offLabel "Turn Positive"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 335
+w 195
+h 45
+controlPv "CC:Coil6:Curr:PDIFF"
+precision 2
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 595
+w 215
+h 70
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 600
+w 166
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Tunning Knob Step Size"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 620
+w 205
+h 40
+controlPv "CC:Coil6:Curr:PSENS"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 90
+y 320
+w 43
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PDIFF"
+}
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 515
+w 100
+h 50
+file "opsPlusMinusButton.edl"
+truthTable
+numStates 11
+minValues {
+  0 2
+  1 5
+  2 3
+  3 4
+  4 10
+  5 13
+  6 12
+  7 11
+  8 7
+  9 6
+  10 1
+}
+maxValues {
+  0 3
+  1 6
+  2 4
+  3 5
+  4 11
+  5 14
+  6 13
+  7 12
+  8 8
+  9 7
+  10 2
+}
+controlPvs {
+  0 "CC:Coil6:PolPosRequest"
+  1 "CC:Coil6:Polarity:Negative"
+  2 "CC:Coil6:Polarity:Positive"
+  3 "CC:1-6:On:Status"
+}
+numPvs 4
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 205
+w 190
+h 45
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 45
+y 205
+w 165
+h 45
+controlPv "CC:Coil6:Curr:Read"
+precision 1
+fgColor index 0
+bgColor index 20
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|B|C\}(CC:Coil6:PREADPSET:PDIFF:Calc,CC:Coil6:PREAD:LTOE:PLOW:Calc,CC:Coil6:PREAD:GTOE:PHIGH:Calc)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 205
+w 165
+h 45
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+visPv "CC:1-6:On:Status"
+visMin "0"
+visMax "1"
+value {
+  "0.0"
+}
+endObjectProperties
+

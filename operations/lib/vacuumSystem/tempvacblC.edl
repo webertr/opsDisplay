@@ -1,0 +1,1152 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 824
+y 129
+w 760
+h 990
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 64
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 475
+y 440
+w 85
+h 75
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vswmdp"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 115
+w 230
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 440
+y 115
+w 260
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 115
+w 60
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 710
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 315
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 120
+w 15
+h 120
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 120
+w 15
+h 120
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 125
+w 200
+h 320
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 120
+w 160
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 125
+w 5
+h 115
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 315
+w 5
+h 130
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+visPv "test:swmhvac"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 760
+w 90
+h 15
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 315
+w 15
+h 460
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 125
+w 205
+h 715
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 120
+w 70
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 125
+w 5
+h 115
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 295
+y 315
+w 5
+h 455
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 765
+w 90
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 765
+w 5
+h 75
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+visPv "test:swmrv"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 175
+y 630
+w 70
+h 85
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vswmbv"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 265
+y 235
+w 70
+h 85
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vswmrv"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 175
+y 235
+w 70
+h 85
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vswmhvac"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 505
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 165
+y 835
+w 85
+h 75
+file "vacuumSystem/symPump4.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmbp"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 235
+w 75
+h 85
+file "vacuumSystem/symValve"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmrv"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 235
+w 75
+h 85
+file "vacuumSystem/symValve"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmhvac"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 630
+w 75
+h 85
+file "vacuumSystem/symValve"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmbv"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 505
+w 5
+h 335
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 710
+w 5
+h 130
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 205
+y 505
+w 5
+h 130
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+visPv "test:swmbv"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 535
+w 125
+h 60
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 535
+w 125
+h 60
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 150
+y 545
+w 115
+h 45
+controlPv "test:press:swm"
+displayMode "exp"
+precision 1
+fgColor index 14
+bgColor index 58
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 150
+y 540
+w 115
+h 15
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 59
+value {
+  "pressure (mbar)"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 165
+y 440
+w 85
+h 75
+file "vacuumSystem/symPump2.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmdp"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 165
+y 440
+w 85
+h 75
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vswmdp"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 55
+y 90
+w 85
+h 70
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vbev"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 360
+y 90
+w 85
+h 70
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vbev"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 366
+y 85
+w 75
+h 85
+file "vacuumSystem/symValve"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:bev"
+}
+numPvs 1
+orientation "rotateCW"
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 61
+y 85
+w 75
+h 85
+file "vacuumSystem/symValve"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:bev"
+}
+numPvs 1
+orientation "rotateCW"
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 120
+w 365
+h 5
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 120
+w 60
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 120
+w 230
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+visPv "test:bev"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 440
+y 120
+w 260
+h 5
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 440
+y 120
+w 260
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+visPv "test:bev"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 325
+w 15
+h 130
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 510
+y 130
+w 15
+h 120
+lineColor index 29
+fill
+fillColor index 29
+lineWidth 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 485
+y 245
+w 70
+h 85
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+xPosOffset -50
+yPosOffset 80
+useFocus
+invisible
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "vacuumSystem/vswmhvac"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 485
+y 245
+w 75
+h 85
+file "vacuumSystem/symValve"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmhvac"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 135
+w 200
+h 320
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 120
+w 185
+h 5
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 125
+w 5
+h 125
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 515
+y 325
+w 5
+h 130
+lineColor index 58
+fill
+fillColor index 58
+lineWidth 0
+endObjectProperties
+
+endGroup
+
+visPv "test:swmhvac"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 475
+y 440
+w 85
+h 75
+file "vacuumSystem/symPump4.edl"
+numStates 2
+minValues {
+  0 1
+}
+maxValues {
+  0 2
+  1 1
+}
+controlPvs {
+  0 "test:swmdp"
+}
+numPvs 1
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+

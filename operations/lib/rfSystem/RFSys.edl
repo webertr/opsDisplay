@@ -1,0 +1,1838 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 0
+y 53
+w 1600
+h 1106
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 62
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 50
+w 1062
+h 832
+lineColor index 63
+fill
+fillColor index 63
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 5
+y 5
+w 1075
+h 40
+font "helvetica-bold-i-32.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 33
+value {
+  "RF System"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 20
+y 55
+w 1037
+h 40
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 35
+y 60
+w 995
+h 30
+fgColor index 25
+onColor index 20
+offColor index 20
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:System:Reset.PROC"
+pressValue "1"
+onLabel "Reset RF System"
+offLabel "Reset RF System"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 540
+y 140
+w 525
+h 335
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 565
+y 445
+w 182
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "RF:RFAC:RMC:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "RMC RFAC Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 560
+y 385
+w 191
+h 21
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "RF:RMC:CntlV:NotReady:Status"
+visMin "1"
+visMax "2"
+value {
+  "RMC +24 VDC Failure"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 565
+y 225
+w 190
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 565
+y 225
+w 190
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "InterDee_Phase"
+value {
+  "InterDee Phase"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 565
+y 225
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 565
+  1 565
+  2 575
+  3 565
+}
+yPoints {
+  0 235
+  1 225
+  2 225
+  3 235
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 895
+y 145
+w 151
+h 41
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 891
+y 146
+w 151
+h 21
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+visPv "RF:RFAC:RMC:SystemPushPush:Status"
+visMin "1"
+visMax "2"
+value {
+  "Push-Push Mode"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 891
+y 166
+w 140
+h 21
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 22
+useDisplayBg
+visPv "RF:RFAC:RMC:SystemPushPull:Status"
+visMin "1"
+visMax "2"
+value {
+  "Push-Pull Mode"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 890
+y 220
+w 148
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "RF:RFAC:RMC:PhaseModeError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Phase Mode Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 245
+y 495
+w 52
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RF1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 415
+y 105
+w 231
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "System Wide (1+2)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 740
+y 145
+w 76
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RFAC"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 140
+w 515
+h 335
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 235
+y 145
+w 77
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RFDC"
+}
+autoSize
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 190
+w 190
+h 50
+file "rfSystem/symRFOff.edl"
+truthTable
+numStates 3
+minValues {
+  1 1
+  2 2
+}
+maxValues {
+  0 1
+  1 2
+  2 3
+}
+controlPvs {
+  0 "RF:RFDC:RMC:NotAllPSOff:Status"
+  1 "RF:RFDC:RMC:AllPSOff:Status"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 305
+w 225
+h 45
+file "rfSystem/symRFHVOn.edl"
+truthTable
+numStates 3
+minValues {
+  1 1
+  2 2
+}
+maxValues {
+  0 1
+  1 2
+  2 3
+}
+controlPvs {
+  0 "RF:RFDC:RMC:NotAllHVPS:On:Status"
+  1 "RF:RFDC:RMC:AllHVPS:On:Status"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 250
+w 230
+h 45
+file "rfSystem/symRFSBOn.edl"
+truthTable
+numStates 3
+minValues {
+  1 1
+  2 2
+}
+maxValues {
+  0 1
+  1 2
+  2 3
+}
+controlPvs {
+  0 "RF:RFDC:RMC:NotAllSBPS:On:Status"
+  1 "RF:RFDC:RMC:AllSBPS:On:Status"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 565
+y 190
+w 180
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 190
+w 180
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFAC:RMC:Init:String.PROC"
+pressValue "1"
+onLabel "Initialize RFAC RMC"
+offLabel "Initialize RFAC RMC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RMC:CntlV:NotReady:Status,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 190
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RMC:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize RFAC RMC"
+offLabel "Initialize RFAC RMC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 190
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RMC:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize RFAC RMC"
+offLabel "Initialize RFAC RMC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RMC:CntlV:NotReady:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 330
+y 190
+w 180
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 330
+y 190
+w 180
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFDC:RMC:Init:String.PROC"
+pressValue "1"
+onLabel "Initialize RFDC RMC"
+offLabel "Initialize RFDC RMC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RMC:CntlV:NotReady:Status,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 330
+y 190
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RMC:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize RFDC RMC"
+offLabel "Initialize RFDC RMC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 330
+y 190
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RMC:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize RFDC RMC"
+offLabel "Initialize RFDC RMC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RMC:CntlV:NotReady:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 325
+y 440
+w 183
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "RF:RFDC:RMC:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "RMC RFDC Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 110
+y 440
+w 193
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "RF:RFDC:RMC:RFPS:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting Down RF PS's"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 565
+y 415
+w 119
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B|!C\}(RF:RFAC:RMC:CommError:Status,RF:RFAC:RMC:HardwareError:Status,RF:RFAC:RMC:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "RMC Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 355
+y 410
+w 133
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{!A\}(RF:RFDC:RMC:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "RMC Watchdog"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 530
+w 250
+h 335
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 280
+y 530
+w 245
+h 335
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 102
+y 535
+w 77
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RFDC"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 359
+y 535
+w 76
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RFAC"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 780
+y 495
+w 52
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RF2"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 530
+w 250
+h 335
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 815
+y 530
+w 245
+h 335
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 635
+y 535
+w 77
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RFDC"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 895
+y 535
+w 76
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RFAC"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 565
+w 180
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 565
+w 180
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFDC:RPSC1:Init:String.PROC"
+pressValue "1"
+onLabel "Init. RFDC RPSC1"
+offLabel "Init. RFDC RPSC1"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RFDC:RPSC1:Cntrl:Interlock,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 565
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RPSC1:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFDC RPSC1"
+offLabel "Init. RFDC RPSC1"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 45
+y 565
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RPSC1:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFDC RPSC1"
+offLabel "Init. RFDC RPSC1"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RFDC:RPSC1:Cntrl:Interlock"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 40
+y 630
+w 202
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "RF:RFDC:RPSC1:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "RPSC1 RFDC Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 590
+y 565
+w 180
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 590
+y 565
+w 180
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFDC:RPSC2:Init:String.PROC"
+pressValue "1"
+onLabel "Init. RFDC RPSC2"
+offLabel "Init. RFDC RPSC2"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RFDC:RPSC2:Cntrl:Interlock,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 590
+y 565
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RPSC2:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFDC RPSC2"
+offLabel "Init. RFDC RPSC2"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 590
+y 565
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFDC:RPSC2:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFDC RPSC2"
+offLabel "Init. RFDC RPSC2"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RFDC:RPSC2:Cntrl:Interlock"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 580
+y 630
+w 202
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "RF:RFDC:RPSC2:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "RPSC2 RFDC Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 70
+y 600
+w 145
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B|!C\}(RF:RFDC:RPSC1:CommError:Status,RF:RFDC:RPSC1:HardwareError:Status,RF:RFDC:RPSC1:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "RPSC-1 Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 610
+y 600
+w 145
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B|!C\}(RF:RFDC:RPSC2:CommError:Status,RF:RFDC:RPSC2:HardwareError:Status,RF:RFDC:RPSC2:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "RPSC-2 Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 860
+y 190
+w 200
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 860
+y 190
+w 200
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFAC:RMC:SetMode:Start.PROC"
+pressValue "1"
+onLabel "Set RMC Phase Mode"
+offLabel "Set RMC Phase Mode"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RMC:CntlV:NotReady:Status,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 860
+y 190
+w 200
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFAC:RMC:BeamOn:Mode:CannotMsg.PROC"
+pressValue "1"
+onLabel "Set RMC Phase Mode"
+offLabel "Set RMC Phase Mode"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 860
+y 190
+w 200
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFAC:RMC:Mode:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Set RMC Phase Mode"
+offLabel "Set RMC Phase Mode"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RMC:CntlV:NotReady:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 310
+y 565
+w 180
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 310
+y 567
+w 180
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFAC:RDRC1:Init:String.PROC"
+pressValue "1"
+onLabel "Init. RFAC RDRC1"
+offLabel "Init. RFAC RDRC1"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RFAC:RDRC1:Cntrl:Interlock,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 310
+y 567
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFAC:RDRC1:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFAC RDRC1"
+offLabel "Init. RFAC RDRC1"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 310
+y 567
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFAC:RDRC1:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFAC RDRC1"
+offLabel "Init. RFAC RDRC1"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RFAC:RDRC1:Cntrl:Interlock"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 305
+y 630
+w 201
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "RF:RFAC:RDRC1:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "RDRC1 RFAC Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 335
+y 600
+w 145
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B|!C\}(RF:RFAC:RDRC1:CommError:Status,RF:RFAC:RDRC1:HardwareError:Status,RF:RFAC:RDRC1:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "RDRC-1 Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 565
+w 180
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 565
+w 180
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "RF:RFAC:RDRC2:Init:String.PROC"
+pressValue "1"
+onLabel "Init. RFAC RDRC2"
+offLabel "Init. RFAC RDRC2"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{!A&!B\}(RF:RFAC:RDRC2:Cntrl:Interlock,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 565
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFAC:RDRC2:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFAC RDRC2"
+offLabel "Init. RFAC RDRC2"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 565
+w 180
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "RF:RFAC:RDRC2:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init. RFAC RDRC2"
+offLabel "Init. RFAC RDRC2"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:RFAC:RDRC2:Cntrl:Interlock"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 840
+y 630
+w 201
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "RF:RFAC:RDRC2:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "RDRC2 RFAC Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 870
+y 600
+w 145
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B|!C\}(RF:RFAC:RDRC2:CommError:Status,RF:RFAC:RDRC2:HardwareError:Status,RF:RFAC:RDRC2:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "RDRC-2 Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 305
+y 660
+w 190
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 307
+y 659
+w 190
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "DeeVolt_Ref1"
+value {
+  "Dee Volt Ref-1"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 307
+y 659
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 307
+  1 307
+  2 317
+  3 307
+}
+yPoints {
+  0 669
+  1 659
+  2 659
+  3 669
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 655
+w 190
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 844
+y 657
+w 190
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "DeeVolt_Ref2"
+value {
+  "Dee Volt Ref-2"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 844
+y 657
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 844
+  1 844
+  2 854
+  3 844
+}
+yPoints {
+  0 667
+  1 657
+  2 657
+  3 667
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 820
+y 560
+w 235
+h 160
+lineColor index 14
+fill
+fillColor index 5
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 820
+y 605
+w 236
+h 54
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "      RDRC Future"
+  "(Delete when ready)"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 560
+w 235
+h 160
+lineColor index 14
+fill
+fillColor index 5
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 285
+y 605
+w 236
+h 54
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "      RDRC Future"
+  "(Delete when ready)"
+}
+autoSize
+endObjectProperties
+

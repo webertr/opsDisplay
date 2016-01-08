@@ -1,0 +1,50 @@
+#RELEASE Location of external products
+# Run "gnumake clean uninstall install" in the application
+# top directory each time this file is changed.
+#
+# NOTE: The build does not check dependancies on files
+# external to this application. Thus you should run
+# "gnumake clean uninstall install" in the top directory
+# each time EPICS_BASE, SNCSEQ, or any other external
+# module defined in the RELEASE file is rebuilt.
+
+TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
+
+# If you don't want to install into $(TOP) then
+# define INSTALL_LOCATION_APP here
+#INSTALL_LOCATION_APP=<fullpathname>
+
+#If using the sequencer, point SNCSEQ at its top directory:
+#SNCSEQ=$(EPICS_BASE)/../modules/soft/seq
+
+
+# 2011-01-11 UWMC/CNTS
+#
+SSCAN=/usr/local/cnts/epics-3.14.12/support/sscan-2-6-6
+
+# seq
+SNCSEQ=/usr/local/cnts/epics-3.14.12/support/seq-2-0-12
+
+# asyn
+ASYN=/usr/local/cnts/epics-3.14.12/support/asyn-4-15
+
+# CALC
+CALC=/usr/local/cnts/epics-3.14.12/support/calc-2-8
+
+# genSubRecord
+#GENSUB=/usr/local/cnts/epics/support/genSub/1-6
+
+# STREAMDEVICE
+STREAMDEVICE=/usr/local/cnts/epics-3.14.12/support/stream-2-5/
+
+# MODBUS
+MODBUS=/usr/local/cnts/epics-3.14.12/support/modbus-2-2/
+
+# END UWMC/CNTS
+
+# EPICS_BASE usually appears last so other apps can override stuff:
+EPICS_BASE=/usr/local/cnts/epics-3.14.12/base-3.14.12
+
+#Capfast users may need the following definitions
+#CAPFAST_TEMPLATES=
+#SCH2EDIF_PATH=

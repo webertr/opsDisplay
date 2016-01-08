@@ -1,0 +1,2307 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 156
+y 40
+w 1335
+h 885
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 50
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 410
+w 25
+h 60
+lineColor index 14
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 815
+y 475
+w 20
+h 25
+lineColor index 14
+fill
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 250
+y 450
+w 250
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 1075
+h 40
+lineColor index 63
+fill
+fillColor index 64
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 10
+w 310
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 0
+bgColor index 0
+useDisplayBg
+value {
+  "Beam Exit Valve to Switching Magnet"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 520
+w 2
+h 0
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 175
+y 650
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 175
+}
+yPoints {
+  0 650
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 932
+y 532
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+lineStyle "dash"
+numPoints 1
+xPoints {
+  0 932
+}
+yPoints {
+  0 532
+}
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 870
+y 400
+w 120
+h 120
+lineColor index 14
+fill
+fillColor index 36
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 140
+y 490
+w 34
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD1"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 890
+y 460
+w 155
+h 0
+lineColor index 14
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 3
+xPoints {
+  0 890
+  1 1045
+  2 1045
+}
+yPoints {
+  0 460
+  1 460
+  2 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 910
+y 445
+w 110
+h 95
+lineColor index 14
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 4
+xPoints {
+  0 924
+  1 910
+  2 1020
+  3 1020
+}
+yPoints {
+  0 459
+  1 445
+  2 540
+  3 540
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 910
+y 385
+w 105
+h 90
+lineColor index 14
+fillColor index 0
+lineWidth 2
+lineStyle "dash"
+numPoints 4
+xPoints {
+  0 923
+  1 910
+  2 1015
+  3 1015
+}
+yPoints {
+  0 462
+  1 475
+  2 385
+  3 385
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 905
+y 370
+w 59
+h 28
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Switching"
+  "Magnet"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 730
+y 405
+w 48
+h 28
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Faraday"
+  "Cup 1"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 745
+y 435
+w 20
+h 50
+lineColor index 14
+fill
+fillColor index 84
+alarmPv "F-Cup:Read"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 680
+y 450
+w 65
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 620
+y 450
+w 35
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 600
+y 485
+w 34
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD2"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 440
+w 10
+h 40
+lineColor index 14
+fill
+fillColor index 15
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 565
+y 450
+w 45
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 500
+y 430
+w 65
+h 60
+lineColor index 14
+fill
+fillColor index 36
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 395
+w 54
+h 28
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Steering "
+  "Magnet"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 440
+w 10
+h 40
+lineColor index 14
+fill
+fillColor index 15
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 395
+w 50
+h 28
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Steering"
+  "Magnet"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 160
+y 450
+w 25
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 55
+y 450
+w 95
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 25
+y 400
+w 34
+h 42
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Beam"
+  "Exit "
+  "Valve"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 440
+w 5
+h 40
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 440
+w 5
+h 40
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 35
+y 445
+w 15
+h 30
+lineColor index 14
+fill
+fillColor index 84
+alarmPv "BEV:Read"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 365
+y 380
+w 17
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Q1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 325
+y 355
+w 97
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Quadrupole"
+}
+autoSize
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 645
+y 490
+w 50
+h 35
+fgColor index 14
+bgColor index 32
+topShadowColor index 33
+botShadowColor index 14
+font "helvetica-medium-r-14.0"
+buttonLabel "BPM 1"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 720
+y 515
+w 70
+h 25
+fgColor index 12
+onColor index 61
+offColor index 61
+inconsistentColor index 14
+topShadowColor index 52
+botShadowColor index 14
+controlPv "F-Cup:Out"
+indicatorPv "F-Cup:Out"
+onLabel "Out"
+offLabel "Out"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 720
+y 490
+w 70
+h 25
+fgColor index 12
+onColor index 61
+offColor index 61
+inconsistentColor index 14
+topShadowColor index 52
+botShadowColor index 14
+controlPv "F-Cup:In"
+indicatorPv "F-Cup:In"
+onLabel "In"
+offLabel "In"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 765
+y 450
+w 105
+h 20
+lineColor index 14
+fill
+fillColor index 4
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 400
+w 25
+h 20
+lineColor index 14
+fillColor index 0
+startAngle 180
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 820
+y 500
+w 10
+h 40
+lineColor index 14
+fill
+fillColor index 1
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 805
+y 440
+w 40
+h 40
+lineColor index 14
+fill
+fillColor index 1
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 815
+y 450
+w 20
+h 20
+lineColor index 14
+fill
+fillColor index 0
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 435
+y 460
+w 40
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 6
+xPoints {
+  0 435
+  1 475
+  2 475
+  3 475
+  4 475
+  5 475
+}
+yPoints {
+  0 460
+  1 460
+  2 460
+  3 460
+  4 460
+  5 460
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 590
+y 560
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 590
+}
+yPoints {
+  0 560
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 655
+y 410
+w 25
+h 0
+lineColor index 1
+fillColor index 0
+numPoints 5
+xPoints {
+  0 655
+  1 680
+  2 680
+  3 680
+  4 680
+}
+yPoints {
+  0 410
+  1 410
+  2 410
+  3 410
+  4 410
+}
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 400
+w 25
+h 20
+lineColor index 14
+fill
+fillColor index 1
+startAngle 360
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 655
+y 470
+w 25
+h 0
+lineColor index 1
+fillColor index 0
+numPoints 5
+xPoints {
+  0 655
+  1 680
+  2 680
+  3 680
+  4 680
+}
+yPoints {
+  0 470
+  1 470
+  2 470
+  3 470
+  4 470
+}
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 655
+y 460
+w 25
+h 20
+lineColor index 14
+fill
+fillColor index 1
+startAngle 180
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 800
+y 545
+w 60
+h 40
+fgColor index 14
+bgColor index 53
+topShadowColor index 54
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+buttonLabel "SWM"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 995
+y 425
+w 80
+h 30
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "To Z Line"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 565
+w 210
+h 25
+fgColor index 14
+onColor index 35
+offColor index 15
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:Focusing:On:Cmd"
+indicatorPv "MainLine:Focusing:On:Cmd"
+onLabel "Starting"
+offLabel "ON"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 600
+w 210
+h 25
+fgColor index 14
+onColor index 35
+offColor index 20
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:Focusing:Off:Cmd"
+indicatorPv "MainLine:Focusing:Off:Cmd"
+onLabel "Stopping"
+offLabel "OFF"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 196
+y 309
+w 50
+h 35
+fgColor index 14
+onColor index 35
+offColor index 15
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:Steering:On:Cmd"
+indicatorPv "MainLine:Steering:On:Cmd"
+onLabel "Starting"
+offLabel "ON"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 196
+y 352
+w 50
+h 35
+fgColor index 14
+onColor index 35
+offColor index 20
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:Steering:Off:Cmd"
+indicatorPv "MainLine:Steering:Off:Cmd"
+onLabel "Stopping"
+offLabel "OFF"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 505
+y 435
+w 55
+h 50
+fgColor index 14
+onColor index 84
+offColor index 84
+topShadowColor index 3
+botShadowColor index 6
+controlPv "LOC\\$(!A)ParamWin:i=0"
+pressValue "17"
+onLabel "X1Y1"
+offLabel "X1Y1"
+3d
+font "helvetica-medium-r-18.0"
+colorPv "MainLine:Steering:Status:Read"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 805
+y 645
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 805
+}
+yPoints {
+  0 645
+}
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 902
+y 532
+w 50
+h 35
+fgColor index 14
+onColor index 35
+offColor index 15
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:SwitchingCoil:On:Cmd"
+indicatorPv "MainLine:SwitchingCoil:On:Cmd"
+onLabel "Starting"
+offLabel "ON"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 902
+y 582
+w 50
+h 35
+fgColor index 14
+onColor index 35
+offColor index 20
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:SwitchingCoil:Off:Cmd"
+indicatorPv "MainLine:SwitchingCoil:Off:Cmd"
+onLabel "Stopping"
+offLabel "OFF"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 900
+y 435
+w 55
+h 50
+fgColor index 14
+onColor index 84
+offColor index 84
+topShadowColor index 3
+botShadowColor index 6
+controlPv "LOC\\$(!A)ParamWin:i=0"
+pressValue "18"
+onLabel "SWM"
+offLabel "SWM"
+3d
+font "helvetica-medium-r-18.0"
+colorPv "MainLine:SwitchingCoil:Status:Read"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 995
+y 350
+w 80
+h 30
+fgColor index 14
+onColor index 25
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "5"
+onLabel "To A Line"
+offLabel "To A Line"
+3d
+font "helvetica-bold-r-14.0"
+visInvert
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 400
+w 60
+h 120
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 465
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 465
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 475
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 465
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 465
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 475
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 410
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 420
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 390
+y 410
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 410
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 420
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 350
+y 410
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 400
+w 40
+h 120
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 400
+w 40
+h 120
+lineColor index 14
+fill
+fillColor index 84
+alarmPv "MainLine:Focusing:Status:Read"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 360
+y 460
+w 40
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 2
+xPoints {
+  0 360
+  1 400
+}
+yPoints {
+  0 460
+  1 460
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 311
+w 50
+h 35
+fgColor index 14
+onColor index 35
+offColor index 15
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:Steering:On:Cmd"
+indicatorPv "MainLine:Steering:On:Cmd"
+onLabel "Starting"
+offLabel "ON"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 354
+w 50
+h 35
+fgColor index 14
+onColor index 35
+offColor index 20
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MainLine:Steering:Off:Cmd"
+indicatorPv "MainLine:Steering:Off:Cmd"
+onLabel "Stopping"
+offLabel "OFF"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 185
+y 430
+w 65
+h 60
+lineColor index 14
+fill
+fillColor index 36
+alarmPv "MainLine:Steering:Status:Read"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 190
+y 435
+w 55
+h 50
+fgColor index 14
+onColor index 84
+offColor index 84
+topShadowColor index 5
+botShadowColor index 8
+controlPv "LOC\\$(!A)ParamWin:i=0"
+pressValue "16"
+onLabel "X0"
+offLabel "X0"
+3d
+font "helvetica-medium-r-18.0"
+colorPv "MainLine:Steering:Status:Read"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 510
+w 70
+h 25
+fgColor index 12
+onColor index 61
+offColor index 61
+inconsistentColor index 14
+topShadowColor index 52
+botShadowColor index 14
+controlPv "BEV:Close"
+indicatorPv "BEV:Close"
+onLabel "Close"
+offLabel "Close"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 485
+w 70
+h 25
+fgColor index 12
+onColor index 61
+offColor index 61
+inconsistentColor index 14
+topShadowColor index 52
+botShadowColor index 14
+controlPv "BEV:Open"
+indicatorPv "BEV:Open"
+onLabel "Open"
+offLabel "Open"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-18.0"
+objType "controls"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 993
+y 543
+w 80
+h 30
+fgColor index 14
+onColor index 25
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "6"
+onLabel "To B Line"
+offLabel "To B Line"
+3d
+font "helvetica-bold-r-14.0"
+visInvert
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 992
+y 579
+w 80
+h 30
+fgColor index 14
+onColor index 25
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "7"
+onLabel "To C Line"
+offLabel "To C Line"
+3d
+font "helvetica-bold-r-14.0"
+visInvert
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 274
+y 530
+w 60
+h 26
+fgColor index 14
+onColor index 58
+offColor index 58
+topShadowColor index 59
+botShadowColor index 14
+controlPv "LOC\\$(!A)ParamWin:i=0"
+pressValue "19"
+onLabel "Lens 1"
+offLabel "Lens 1"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 400
+w 60
+h 120
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 465
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 465
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 475
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 315
+y 465
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 315
+y 465
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 315
+y 475
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 313
+y 410
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 313
+y 420
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 313
+y 410
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 410
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 420
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 275
+y 410
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 285
+y 400
+w 40
+h 120
+lineColor index 14
+fill
+fillColor index 84
+alarmPv "MainLine:Focusing:Status:Read"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 285
+y 460
+w 40
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 2
+xPoints {
+  0 285
+  1 325
+}
+yPoints {
+  0 460
+  1 460
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 400
+w 60
+h 120
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 465
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 465
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 475
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 465
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 465
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 475
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 410
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 420
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 425
+y 410
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle 90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 410
+w 20
+h 45
+
+beginGroup
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 420
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 40
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+# (Arc)
+object activeArcClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 465
+y 410
+w 20
+h 35
+lineColor index 14
+fill
+fillColor index 41
+startAngle -90
+totalAngle 180
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 435
+y 400
+w 40
+h 120
+lineColor index 14
+fill
+fillColor index 84
+alarmPv "MainLine:Focusing:Status:Read"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 435
+y 460
+w 40
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 2
+xPoints {
+  0 435
+  1 475
+}
+yPoints {
+  0 460
+  1 460
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 352
+y 530
+w 60
+h 25
+fgColor index 14
+onColor index 58
+offColor index 58
+topShadowColor index 59
+botShadowColor index 14
+controlPv "LOC\\$(!A)ParamWin:i=0"
+pressValue "20"
+onLabel "Lens 2"
+offLabel "Lens 2"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 552
+y 867
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 552
+}
+yPoints {
+  0 867
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 424
+y 531
+w 60
+h 25
+fgColor index 14
+onColor index 58
+offColor index 58
+topShadowColor index 59
+botShadowColor index 14
+controlPv "LOC\\$(!A)ParamWin:i=0"
+pressValue "21"
+onLabel "Lens 3"
+offLabel "Lens 3"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+

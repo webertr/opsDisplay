@@ -1,0 +1,507 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 0
+y 53
+w 1600
+h 1106
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 28
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Magnet Control"
+showGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 45
+w 225
+h 630
+lineColor index 63
+fill
+fillColor index 63
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 55
+w 215
+h 340
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 96
+y 125
+w 33
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PSet"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 92
+y 190
+w 41
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Pread"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 91
+y 60
+w 42
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PHigh"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 94
+y 260
+w 37
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PLow"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 280
+w 195
+h 40
+controlPv "IGS:XG:ACCurr:PLOW"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 6
+release 0
+x 20
+y 65
+w 170
+h 25
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+clipToDspLimits
+noExecuteClipMask
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 145
+w 195
+h 40
+controlPv "IGS:XG:ACCurr:Set"
+fgColor index 91
+bgColor index 14
+colorPv "CALC\\\{C*(A+2*B)\}(IGS:XG:ACCurr:PREADPSET:PDIFF:Calc2,IGS:XG:ACCurr:PREADPSET:PDIFF:Calc,IGS:On:Status)"
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 585
+w 215
+h 80
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 30
+y 600
+w 157
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Tuning Knob Step Size"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 325
+w 195
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PDiff"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1
+y 0
+w 15
+h 40
+lineColor index 29
+fill
+fillColor index 68
+lineWidth 2
+numPoints 4
+xPoints {
+  0 1
+  1 1
+  2 16
+  3 1
+}
+yPoints {
+  0 0
+  1 40
+  2 20
+  3 0
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 0
+y 0
+w 230
+h 41
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 48
+bgColor index 33
+value {
+  "XG-AC"
+}
+lineWidth 2
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 345
+w 195
+h 40
+
+beginGroup
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 345
+w 195
+h 40
+controlPv "IGS:XG:ACCurr:PDIFF"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 620
+w 205
+h 40
+
+beginGroup
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 620
+w 205
+h 40
+controlPv "IGS:XG:ACCurr:PSENS"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 80
+w 195
+h 40
+
+beginGroup
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 80
+w 195
+h 40
+controlPv "IGS:XG:ACCurr:PHIGH"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 209
+w 196
+h 41
+
+beginGroup
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 210
+w 195
+h 40
+controlPv "IGS:XG:ACCurr:Read.VAL"
+precision 1
+fgColor index 90
+fgAlarm
+bgColor index 2
+colorPv "IGS:XG:ACCurr:PREADPSET:PDIFF:Calc2"
+fill
+font "helvetica-medium-r-18.0"
+lineWidth 0
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 16
+y 209
+w 190
+h 40
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 16
+y 209
+w 195
+h 40
+controlPv "IGS:XG:ACCurr:Read"
+fgColor index 20
+bgColor index 0
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|B|C\}(IGS:XG:ACCurr:PREADPSET:PDIFF:Calc,IGS:XG:ACCurr:PREAD:LTOE:PLOW:Calc,IGS:XG:ACCurr:PREAD:GTOE:PHIGH:Calc)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 16
+y 209
+w 195
+h 40
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+visPv "IGS:On:Status"
+visMin "0"
+visMax "1"
+value {
+  "0.0"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

@@ -1,0 +1,1705 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 0
+y 53
+w 1600
+h 1200
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 27
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 525
+w 215
+h 600
+controlPv "CCC:TUMEncoder7:ParamPick"
+format "string"
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+fastUpdate
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 920
+y 915
+w 655
+h 55
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 47
+value {
+  "Operator Messages"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 920
+y 970
+w 654
+h 220
+lineColor index 68
+fill
+fillColor index 68
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 85
+w 225
+h 375
+lineColor index 47
+fill
+fillColor index 74
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1340
+y 770
+w 235
+h 130
+lineColor index 18
+fill
+fillColor index 58
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 250
+y 970
+w 664
+h 220
+lineColor index 68
+fill
+fillColor index 68
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1340
+y 660
+w 235
+h 100
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+visInvert
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 260
+w 2
+h 0
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 200
+y 420
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 200
+}
+yPoints {
+  0 420
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 175
+y 375
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 175
+}
+yPoints {
+  0 375
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 925
+y 240
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+lineStyle "dash"
+numPoints 1
+xPoints {
+  0 925
+}
+yPoints {
+  0 240
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 585
+y 270
+w 0
+h 0
+lineColor index 14
+fillColor index 0
+numPoints 1
+xPoints {
+  0 585
+}
+yPoints {
+  0 270
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1340
+y 15
+w 235
+h 65
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 47
+value {
+  "Cyclotron And"
+  "Beamline Controls"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 770
+w 79
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Operator:"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1340
+y 90
+w 235
+h 275
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1365
+y 95
+w 185
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 0
+bgColor index 0
+useDisplayBg
+value {
+  "Machine Subsystems"
+}
+autoSize
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 525
+w 225
+h 665
+fgColor index 14
+bgColor index 5
+topShadowColor index 0
+botShadowColor index 0
+filePv "CCC:TUMEncoder7:EWControlS"
+sizeOfs 5
+numDsps 21
+displayFileName {
+  0 "./graphics/BlankParam.edl"
+  1 "./magSystem/CircCoilMagnetControl.edl"
+  2 "./magSystem/CircCoilMagnetControl.edl"
+  3 "./magSystem/CircCoilMagnetControl.edl"
+  4 "./magSystem/CircCoilMagnetControl.edl"
+  5 "./magSystem/CircCoilMagnetControl.edl"
+  6 "./magSystem/CircCoilMagnetControl.edl"
+  7 "./magSystem/CircCoilMagnetControl.edl"
+  8 "./magSystem/CircCoilMagnetControl.edl"
+  9 "./magSystem/CircCoilMagnetControl.edl"
+  10 "./magSystem/CircCoilMagnetControl.edl"
+  11 "./magSystem/CircCoilMagnetControl.edl"
+  12 "./magSystem/HarmonicCoilMagnetControl.edl"
+  13 "./magSystem/HarmonicCoilMagnetControl.edl"
+  14 "./magSystem/HarmonicCoilMagnetControl.edl"
+  15 "./magSystem/HarmonicCoilMagnetControl.edl"
+  16 "./magSystem/MagnetControl.edl"
+  17 "./magSystem/HarmonicCoilMagnetControl.edl"
+  18 "./magSystem/HarmonicCoilMagnetControl.edl"
+  19 "./magSystem/HarmonicCoilMagnetControl.edl"
+  20 "./magSystem/HarmonicCoilMagnetControl.edl"
+}
+menuLabel {
+  16 "16"
+  17 "17"
+  18 "18"
+  19 "19"
+}
+symbols {
+  1 "N=Circular Coil 10, Coil=Coil10"
+  2 "N=Circular Coil 9, Coil=Coil9"
+  3 "N=Circular Coil 8, Coil=Coil8"
+  4 "N=Circular Coil 7, Coil=Coil7"
+  5 "N=Circular Coil 6, Coil=Coil6"
+  6 "N=Circular Coil 5, Coil=Coil5"
+  7 "N=Circular Coil 4, Coil=Coil4"
+  8 "N=Circular Coil 3, Coil=Coil3"
+  9 "N=Circular Coil 2, Coil=Coil2"
+  10 "N=Circular Coil 1U, Coil=Coil1U"
+  11 "N=Circular Coil 1L, Coil=Coil1L"
+  12 "Coil=D"
+  13 "Coil=C"
+  14 "Coil=B"
+  15 "Coil=A"
+  17 "Coil=D"
+  18 "Coil=C"
+  19 "Coil=B"
+  20 "Coil=A"
+}
+propagateMacros {
+  16 0
+  17 0
+}
+noScroll
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 120
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "1"
+onLabel "Magnet System"
+offLabel "Magnet System"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 15
+w 225
+h 60
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 47
+value {
+  "Tuning"
+  "Operations"
+}
+border
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 90
+w 215
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "2"
+onLabel "Tuning Select"
+offLabel "Tuning Select"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 230
+w 175
+h 30
+controlPv "CCC:TUMEncoder2:ParamPick"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+fastUpdate
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 275
+w 175
+h 30
+controlPv "CCC:TUMEncoder3:ParamPick"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+fastUpdate
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 320
+w 175
+h 30
+controlPv "CCC:TUMEncoder4:ParamPick"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+fastUpdate
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 365
+w 175
+h 30
+controlPv "CCC:TUMEncoder5:ParamPick"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+fastUpdate
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 410
+w 175
+h 30
+controlPv "CCC:TUMEncoder6:ParamPick"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+fastUpdate
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 165
+y 15
+w 2
+h 0
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 670
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "11"
+onLabel "Utilities"
+offLabel "Utilities"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Box)
+object activeMessageBoxClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 255
+y 925
+w 655
+h 220
+fgColor index 14
+bgColor index 0
+2ndBgColor index 3
+topShadowColor index 1
+botShadowColor index 10
+indicatorPv "CCC:OpsDisplay:System:Msg"
+font "helvetica-bold-r-14.0"
+bufferSize 100000
+fileSize 10000000
+flushTimerValue 5
+logFileName "/home/operations/var/log/system/temp.log"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 160
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "13"
+onLabel "RF System"
+offLabel "RF System"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 200
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "15"
+onLabel "Ion Source"
+offLabel "Ion Source"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 240
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "16"
+onLabel "Extraction"
+offLabel "Extraction"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 280
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "17"
+onLabel "Beam Diagnostics"
+offLabel "Beam Diagnostics"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 320
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "14"
+onLabel "Vacuum System"
+offLabel "Vacuum System"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 715
+w 225
+h 35
+fgColor index 14
+onColor index 20
+offColor index 20
+topShadowColor index 14
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "12"
+onLabel "Logout"
+offLabel "Logout"
+useEnumNumeric
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1340
+y 375
+w 235
+h 275
+lineColor index 47
+fill
+fillColor index 47
+lineWidth 2
+visInvert
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 405
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "4"
+onLabel "Beamline to FC1"
+offLabel "Beamline to FC1"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 445
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "5"
+onLabel "A Line Controls"
+offLabel "A Line Controls"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 485
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "8"
+onLabel "B Line Controls"
+offLabel "B Line Controls"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 525
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "7"
+onLabel "C Line Controls"
+offLabel "C Line Controls"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 565
+w 225
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "21"
+onLabel "Z Line Controls"
+offLabel "Z Line Controls"
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1375
+y 380
+w 163
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 0
+bgColor index 0
+useDisplayBg
+visMin "1"
+visMax "2"
+value {
+  "Beamline Controls"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 185
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder1:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 135
+w 215
+h 35
+fgColor index 14
+onColor index 25
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+pressValue "18"
+onLabel "Set Select"
+offLabel "Set Select"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 15
+y 185
+w 175
+h 30
+controlPv "CCC:TUMEncoder1:ParamPick"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+editable
+motifWidget
+limitsFromDb
+nullColor index 0
+smartRefresh
+useKp
+updatePvOnDrop
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 1345
+y 670
+w 225
+h 35
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+invisible
+numCmds 1
+command {
+  0 "caput CCC:SR:save `  date +'%Y-%m-%d' `  & /usr/local/cnts/epics/operations/bin/checkfileexist.sh"
+}
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1355
+y 818
+w 150
+h 21
+controlPv "CCC:SR:current"
+format "string"
+font "helvetica-bold-r-18.0"
+fgColor index 13
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1347
+y 793
+w 128
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Loaded setting:"
+}
+autoSize
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 250
+y 915
+w 665
+h 60
+fgColor index 14
+bgColor index 0
+topShadowColor index 68
+botShadowColor index 14
+displaySource "file"
+file "systemLogTitle.edl"
+sizeOfs 5
+numDsps 0
+noScroll
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 255
+y 1145
+w 655
+h 40
+controlPv "CCC:OpsDisplay:System:WritePre"
+fgColor index 14
+fgAlarm
+bgColor index 0
+fill
+font "helvetica-bold-r-14.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 490
+w 2
+h 0
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoSize
+lineWidth 2
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 930
+y 980
+w 620
+h 200
+fgColor index 14
+bgColor index 68
+topShadowColor index 68
+botShadowColor index 68
+font "helvetica-medium-i-18.0"
+buttonLabel "click here to restart whiteboard"
+multipleInstances
+numCmds 1
+command {
+  0 "../bin/text"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 230
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder2:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 275
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder3:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 410
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder6:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 365
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder5:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 320
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder4:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 12
+y 475
+w 223
+h 45
+font "helvetica-bold-r-24.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 47
+value {
+  "Parameters"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 0
+y 410
+w 15
+h 30
+lineColor index 47
+fill
+fillColor index 70
+lineWidth 2
+closePolygon
+numPoints 4
+xPoints {
+  0 0
+  1 0
+  2 15
+  3 0
+}
+yPoints {
+  0 410
+  1 440
+  2 425
+  3 410
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 0
+y 365
+w 15
+h 30
+lineColor index 47
+fill
+fillColor index 70
+lineWidth 2
+closePolygon
+numPoints 4
+xPoints {
+  0 0
+  1 0
+  2 15
+  3 0
+}
+yPoints {
+  0 365
+  1 395
+  2 380
+  3 365
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 0
+y 320
+w 15
+h 30
+lineColor index 47
+fill
+fillColor index 70
+lineWidth 2
+closePolygon
+numPoints 4
+xPoints {
+  0 0
+  1 0
+  2 15
+  3 0
+}
+yPoints {
+  0 320
+  1 350
+  2 335
+  3 320
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 0
+y 275
+w 15
+h 30
+lineColor index 47
+fill
+fillColor index 70
+lineWidth 2
+closePolygon
+numPoints 4
+xPoints {
+  0 0
+  1 0
+  2 15
+  3 0
+}
+yPoints {
+  0 275
+  1 305
+  2 290
+  3 275
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 0
+y 230
+w 15
+h 30
+lineColor index 47
+fill
+fillColor index 70
+lineWidth 2
+closePolygon
+numPoints 4
+xPoints {
+  0 0
+  1 0
+  2 15
+  3 0
+}
+yPoints {
+  0 230
+  1 260
+  2 245
+  3 230
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 0
+y 185
+w 15
+h 30
+lineColor index 47
+fill
+fillColor index 70
+lineWidth 2
+closePolygon
+numPoints 4
+xPoints {
+  0 0
+  1 0
+  2 15
+  3 0
+}
+yPoints {
+  0 185
+  1 215
+  2 200
+  3 185
+}
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1355
+y 875
+w 200
+h 25
+controlPv "CCC:OpsDisplay:Operator:TimeStamp"
+fgColor index 13
+bgColor index 0
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1345
+y 861
+w 45
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Time:"
+}
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 245
+y -35
+w 1075
+h 885
+fgColor index 14
+bgColor index 52
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "LOC\\System:i=0"
+sizeOfs 9
+numDsps 22
+displayFileName {
+  0 "./graphics/BlankSystem.edl"
+  1 "./magSystem/MagSys.edl"
+  2 "./tuningSelect/TuningSysSelect"
+  3 "./TuningSysSelectOp"
+  4 "./toFC1LineControl/BeamlineCtlToFC1.edl"
+  5 "./aLineControl/BeamLineA.edl"
+  6 "./toSWM.edl"
+  7 "./cLineControl/BeamLineC.edl"
+  8 "./bLineControl/BeamLineB.edl"
+  9 "./gantryLineControl/Gantry.edl"
+  10 "./SnapShot/utilities.edl"
+  11 "./SnapShot/utilities.edl"
+  12 "./logout/Logout.edl"
+  13 "./rfSystem/RFSys.edl"
+  14 "./vacuumSystem/vacSystem.edl"
+  15 "./ionSrc/ionSrc.edl"
+  16 "./extractSys/extraction.edl"
+  17 "./blDiag/blDiag.edl"
+  18 "./tuningSelect/TuningPresets.edl"
+  19 "./printpreview.edl"
+  20 "./oldMagSystem.edl"
+  21 "./zLineControl/BeamLineZ.edl"
+}
+menuLabel {
+  1 "1"
+  3 "3"
+  4 "4"
+  5 "5"
+  6 "6"
+  7 "7"
+  8 "8"
+  9 "9"
+  10 "10"
+  11 "11"
+  12 "12"
+  13 "13"
+  14 "14"
+  17 "17"
+  20 "20"
+  21 "21"
+}
+symbols {
+  2 "ModNumber=2"
+  3 "ModNumber=3"
+}
+noScroll
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 1345
+y 670
+w 225
+h 35
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+invisible
+numCmds 1
+command {
+  0 "caput CCC:SR:save `  date +'%Y-%m-%d' ` & /usr/local/cnts/epics/operations/bin/checkfileexist.sh"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 195
+y 485
+w 35
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:TUMEncoder7:ParamPick"
+pressValue "_"
+onLabel "Clear"
+offLabel "Clear"
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1355
+y 837
+w 185
+h 21
+controlPv "CCC:SR:current"
+format "string"
+font "helvetica-bold-r-18.0"
+fontAlign "right"
+fgColor index 13
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 1435
+y 770
+w 150
+h 21
+controlPv "CCC:OpsDisplay:Operator:Name"
+format "string"
+font "helvetica-medium-r-18.0"
+fgColor index 13
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+

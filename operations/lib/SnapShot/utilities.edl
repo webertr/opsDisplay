@@ -1,0 +1,2703 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 326
+y 95
+w 1075
+h 875
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 62
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 65
+w 530
+h 790
+lineColor index 14
+fill
+fillColor index 63
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 100
+w 450
+h 80
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 115
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "3"
+releaseValue "3"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 115
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "2"
+releaseValue "2"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 775
+w 450
+h 50
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 550
+y 555
+w 510
+h 300
+lineColor index 14
+fill
+fillColor index 63
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 605
+y 620
+w 390
+h 130
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 210
+w 450
+h 170
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 60
+y 235
+w 430
+h 30
+controlPv "CCC:SR:save"
+format "string"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 58
+editable
+nullColor index 0
+fastUpdate
+defDir "/usr/local/cnts/epics/operations/var/SnapShot/StoredSettings"
+fileComponent "nameAndExt"
+newPos
+inputFocusUpdates
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 60
+y 215
+w 38
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 61
+useDisplayBg
+value {
+  "Date"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 550
+y 65
+w 510
+h 480
+lineColor index 14
+fill
+fillColor index 63
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 445
+w 159
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Setting Description"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 365
+w 106
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Time loaded:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 580
+y 90
+w 191
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Current setting status"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 385
+w 390
+h 50
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 620
+y 395
+w 370
+h 30
+controlPv "CCC:SR:current:loadedtime"
+format "string"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+nullColor index 0
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 575
+y 580
+w 162
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Clipboard options"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 190
+w 42
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Save"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 415
+w 450
+h 80
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 60
+y 265
+w 94
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 61
+useDisplayBg
+value {
+  "Description"
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 60
+y 290
+w 430
+h 30
+controlPv "CCC:SR:save:desc"
+format "string"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 58
+editable
+nullColor index 0
+fastUpdate
+newPos
+inputFocusUpdates
+objType "controls"
+characterMode
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 395
+w 126
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Delete Setting"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 590
+y 755
+w 245
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Last clipboard snapshot taken"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 1090
+h 40
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 0
+bgColor index 47
+value {
+  "Save - Restore - Print"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 605
+y 775
+w 390
+h 50
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 205
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Dated created:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 285
+w 97
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Created by:"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 225
+w 390
+h 50
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 305
+w 390
+h 50
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 620
+y 235
+w 370
+h 30
+controlPv "CCC:SR:current:makedate"
+format "string"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+fastUpdate
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 620
+y 315
+w 370
+h 30
+controlPv "CCC:SR:current:makeuser"
+format "string"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+fastUpdate
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 665
+w 41
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Print"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 685
+w 450
+h 85
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 145
+w 390
+h 50
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 125
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Setting loaded"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 620
+y 155
+w 370
+h 30
+controlPv "CCC:SR:current"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 60
+y 785
+w 210
+h 30
+fgColor index 14
+onColor index 68
+offColor index 68
+topShadowColor index 68
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+releaseValue "19"
+onLabel "Print Current Status"
+offLabel "Print Current Status"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 615
+y 785
+w 370
+h 30
+controlPv "CCC:SR:clip:storedtime"
+fgColor index 14
+fgAlarm
+bgColor index 0
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 300
+y 445
+w 180
+h 50
+fgColor index 64
+bgColor index 64
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "CCC:SR:SelectionIndex"
+center
+sizeOfs 5
+numDsps 6
+displayFileName {
+  0 "./SnapShot/browser.edl"
+  1 "./SnapShot/browser.edl"
+  2 "./SnapShot/browser.edl"
+  3 "./SnapShot/browser.edl"
+  4 "./SnapShot/browser.edl"
+  5 "./SnapShot/browser.edl"
+}
+menuLabel {
+  0 "Browser"
+}
+symbols {
+  0 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=Delete, TEXT=File Select"
+  1 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=Delete, TEXT=File Select"
+  2 "PARTICLE=H2+, DEFAULT=nDefault, ACTION=Delete, TEXT=File Select"
+  3 "PARTICLE=Deuteron, DEFAULT=nDefault, ACTION=Delete, TEXT=File Select"
+  4 "PARTICLE=Helium3, DEFAULT=nDefault, ACTION=Delete, TEXT=File Select"
+  5 "PARTICLE=Alpha, DEFAULT=nDefault, ACTION=Delete, TEXT=File Select"
+}
+noScroll
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 315
+y 720
+w 180
+h 50
+fgColor index 64
+bgColor index 64
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "CALC\\\{A+5*B\}(CCC:SR:SelectionIndex,CCC:SR:save:morns)"
+center
+sizeOfs 5
+numDsps 11
+displayFileName {
+  0 "./SnapShot/browser.edl"
+  1 "./SnapShot/browser.edl"
+  2 "./SnapShot/browser.edl"
+  3 "./SnapShot/browser.edl"
+  4 "./SnapShot/browser.edl"
+  5 "./SnapShot/browser.edl"
+  6 "./SnapShot/browser.edl"
+  7 "./SnapShot/browser.edl"
+  8 "./SnapShot/browser.edl"
+  9 "./SnapShot/browser.edl"
+  10 "./SnapShot/browser.edl"
+}
+menuLabel {
+  0 "Browser"
+}
+symbols {
+  0 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=Print, TEXT=File Select"
+  1 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=Print, TEXT=File Select"
+  2 "PARTICLE=H2+, DEFAULT=nDefault, ACTION=Print, TEXT=File Select"
+  3 "PARTICLE=Deuteron, DEFAULT=nDefault, ACTION=Print, TEXT=File Select"
+  4 "PARTICLE=H2+, DEFAULT=nDefault, ACTION=Print, TEXT=File Select"
+  5 "PARTICLE=Alpha, DEFAULT=nDefault, ACTION=Print, TEXT=File Select"
+  6 "PARTICLE=Proton, DEFAULT=Default, ACTION=Print, TEXT=File Select"
+  7 "PARTICLE=H2+, DEFAULT=Default, ACTION=Print, TEXT=File Select"
+  8 "PARTICLE=Deuteron, DEFAULT=Default, ACTION=Print, TEXT=File Select"
+  9 "PARTICLE=H2+, DEFAULT=Default, ACTION=Print, TEXT=File Select"
+  10 "PARTICLE=Alpha, DEFAULT=Default, ACTION=Print, TEXT=File Select"
+}
+noScroll
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 730
+w 58
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Default"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 50
+y 530
+w 450
+h 125
+lineColor index 64
+fill
+fillColor index 64
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 510
+w 149
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Manage Defaults"
+}
+autoSize
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 315
+y 605
+w 180
+h 50
+fgColor index 64
+bgColor index 64
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "CCC:SR:SelectionIndex"
+center
+sizeOfs 5
+numDsps 6
+displayFileName {
+  0 "./SnapShot/browser.edl"
+  1 "./SnapShot/browser.edl"
+  2 "./SnapShot/browser.edl"
+  3 "./SnapShot/browser.edl"
+  4 "./SnapShot/browser.edl"
+  5 "./SnapShot/browser.edl"
+}
+menuLabel {
+  0 "Browser"
+}
+symbols {
+  0 "PARTICLE=Proton, DEFAULT=Default, ACTION=remDefault, TEXT=File Select"
+  1 "PARTICLE=Proton, DEFAULT=Default, ACTION=remDefault, TEXT=File Select"
+  2 "PARTICLE=H2+, DEFAULT=Default, ACTION=remDefault, TEXT=File Select"
+  3 "PARTICLE=Deuteron, DEFAULT=Default, ACTION=remDefault, TEXT=File Select"
+  4 "PARTICLE=Helium3, DEFAULT=Default, ACTION=remDefault, TEXT=File Select"
+  5 "PARTICLE=Alpha, DEFAULT=Default, ACTION=remDefault, TEXT=File Select"
+}
+noScroll
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 315
+y 560
+w 180
+h 50
+fgColor index 64
+bgColor index 64
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "CCC:SR:SelectionIndex"
+center
+sizeOfs 5
+numDsps 6
+displayFileName {
+  0 "./SnapShot/browser.edl"
+  1 "./SnapShot/browser.edl"
+  2 "./SnapShot/browser.edl"
+  3 "./SnapShot/browser.edl"
+  4 "./SnapShot/browser.edl"
+  5 "./SnapShot/browser.edl"
+}
+menuLabel {
+  0 "Browser"
+}
+symbols {
+  0 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=SetDefault, TEXT=File Select"
+  1 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=SetDefault, TEXT=File Select"
+  2 "PARTICLE=H2+, DEFAULT=nDefault, ACTION=SetDefault, TEXT=File Select"
+  3 "PARTICLE=Deuteron, DEFAULT=nDefault, ACTION=SetDefault, TEXT=File Select"
+  4 "PARTICLE=Helium3, DEFAULT=nDefault, ACTION=SetDefault, TEXT=File Select"
+  5 "PARTICLE=Alpha, DEFAULT=nDefault, ACTION=SetDefault, TEXT=File Select"
+}
+noScroll
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 170
+y 575
+w 130
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Add setting"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 170
+y 620
+w 130
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Remove setting"
+}
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 320
+y 340
+w 170
+h 30
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+invisible
+numCmds 1
+command {
+  0 "/usr/local/cnts/epics/operations/bin/checkfileexist.sh"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 320
+y 340
+w 170
+h 30
+fgColor index 14
+bgColor index 68
+topShadowColor index 68
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+buttonLabel "Save"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "./SnapShot/confirmS.edl"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 80
+w 45
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Load"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 145
+w 58
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Default"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 110
+w 56
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Proton"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 430
+y 110
+w 46
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Alpha"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 115
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "1"
+releaseValue "1"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 115
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "5"
+releaseValue "5"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 115
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 115
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 115
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "4"
+releaseValue "4"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 335
+y 110
+w 65
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3Helium"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 115
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 150
+w 10
+h 10
+fgColor index 0
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "CCC:SR:save:morns"
+releaseValue "1"
+font "helvetica-medium-r-18.0"
+visPv "CCC:SR:save:morns"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 150
+w 10
+h 10
+fgColor index 0
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "CCC:SR:save:morns"
+releaseValue "0"
+font "helvetica-medium-r-18.0"
+visPv "CCC:SR:save:morns"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 65
+y 145
+w 10
+h 15
+lineColor index 14
+fillColor index 0
+lineWidth 3
+visPv "CCC:SR:save:morns"
+visMin "1"
+visMax "2"
+numPoints 4
+xPoints {
+  0 65
+  1 69
+  2 74
+  3 75
+}
+yPoints {
+  0 153
+  1 160
+  2 147
+  3 145
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 735
+w 10
+h 10
+fgColor index 0
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "CCC:SR:save:morns"
+releaseValue "1"
+font "helvetica-medium-r-18.0"
+visPv "CCC:SR:save:morns"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 735
+w 10
+h 10
+fgColor index 0
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 0
+controlPv "CCC:SR:save:morns"
+releaseValue "0"
+font "helvetica-medium-r-18.0"
+visPv "CCC:SR:save:morns"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 65
+y 730
+w 10
+h 15
+lineColor index 14
+fillColor index 0
+lineWidth 3
+visPv "CCC:SR:save:morns"
+visMin "1"
+visMax "2"
+numPoints 4
+xPoints {
+  0 65
+  1 69
+  2 74
+  3 75
+}
+yPoints {
+  0 738
+  1 745
+  2 732
+  3 730
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 625
+y 690
+w 355
+h 50
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 4
+visPv "MOD1:Input0408:Read"
+visMin "1"
+visMax "2"
+value {
+  "Setting may not be restored; beam is on"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 425
+w 56
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Proton"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 430
+y 425
+w 46
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Alpha"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 430
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "1"
+releaseValue "1"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 430
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "5"
+releaseValue "5"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 430
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 430
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 540
+w 56
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Proton"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 430
+y 540
+w 46
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Alpha"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 545
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "1"
+releaseValue "1"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 545
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "5"
+releaseValue "5"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 545
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 545
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 695
+w 56
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Proton"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 430
+y 695
+w 46
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Alpha"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 700
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "1"
+releaseValue "1"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 700
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "5"
+releaseValue "5"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 65
+y 700
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 415
+y 700
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 625
+y 690
+w 355
+h 50
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 4
+visPv "CCC:SR:clipboardexists"
+visMin "0"
+visMax "1"
+value {
+  "No clipboard setting saved"
+}
+border
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 625
+y 690
+w 355
+h 50
+
+beginGroup
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 625
+y 690
+w 355
+h 50
+fgColor index 14
+bgColor index 68
+topShadowColor index 68
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+buttonLabel "Restore last clipboard snapshot"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "./SnapShot/confirmCR.edl"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{!A&B\}(MOD1:Input0408:Read,CCC:SR:clipboardexists)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 610
+y 465
+w 390
+h 50
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 620
+y 475
+w 365
+h 30
+controlPv "CCC:SR:current:desc"
+fgColor index 49
+fgAlarm
+bgColor index 0
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 625
+y 630
+w 355
+h 50
+fgColor index 14
+bgColor index 68
+topShadowColor index 68
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+buttonLabel "Copy current settings to clipboard"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "./SnapShot/confirmCS.edl"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 125
+y 830
+w 190
+h 25
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+editable
+autoHeight
+motifWidget
+limitsFromDb
+nullColor index 0
+file
+defDir "/usr/local/cnts/epics/operations/var/log/system"
+useHexPrefix
+fileComponent "name"
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 280
+y 785
+w 210
+h 30
+fgColor index 14
+bgColor index 68
+topShadowColor index 68
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+buttonLabel "Print System Log"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "./SnapShot/confirmPL.edl"
+}
+setPosition {
+  0 "button"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 110
+w 33
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "H2+"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 115
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 110
+w 76
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Deuteron"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 115
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 425
+w 33
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "H2+"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 430
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "2"
+releaseValue "2"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 430
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 425
+w 76
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Deuteron"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 430
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "3"
+releaseValue "3"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 430
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 335
+y 425
+w 65
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3Helium"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 430
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "4"
+releaseValue "4"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 335
+y 540
+w 65
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3Helium"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 545
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "4"
+releaseValue "4"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 545
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 540
+w 33
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "H2+"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 545
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "2"
+releaseValue "2"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 545
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 540
+w 76
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Deuteron"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 545
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "3"
+releaseValue "3"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 545
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 335
+y 695
+w 65
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3Helium"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 700
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "4"
+releaseValue "4"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 700
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 230
+y 695
+w 76
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Deuteron"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 700
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "3"
+releaseValue "3"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 695
+w 33
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "H2+"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 700
+w 10
+h 10
+fgColor index 14
+onColor index 51
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCC:SR:SelectionIndex"
+pressValue "2"
+releaseValue "2"
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 430
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 145
+y 700
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 215
+y 700
+w 10
+h 10
+lineColor index 14
+fill
+fillColor index 14
+visPv "CCC:SR:SelectionIndex"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 60
+y 340
+w 250
+h 30
+controlPv "CCC:SR:EnergySetting"
+format "decimal"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 58
+editable
+precision 1
+nullColor index 0
+changeValOnLoseFocus
+fastUpdate
+newPos
+inputFocusUpdates
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 60
+y 320
+w 58
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 61
+useDisplayBg
+value {
+  "Energy"
+}
+autoSize
+endObjectProperties
+
+# (Embedded Window)
+object activePipClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 315
+y 130
+w 180
+h 50
+fgColor index 64
+bgColor index 64
+topShadowColor index 0
+botShadowColor index 14
+displaySource "menu"
+filePv "CALC\\\{((A+5*B)+1)*!C\}(CCC:SR:SelectionIndex,CCC:SR:save:morns,RF:HighPowerOn:Status)"
+center
+sizeOfs 5
+numDsps 12
+displayFileName {
+  0 "./SnapShot/beamon.edl"
+  1 "./SnapShot/browserdisabled.edl"
+  2 "./SnapShot/browserdisabled.edl"
+  3 "./SnapShot/browserdisabled.edl"
+  4 "./SnapShot/browserdisabled.edl"
+  5 "./SnapShot/browserdisabled.edl"
+  6 "./SnapShot/browserdisabled.edl"
+  7 "./SnapShot/browserdisabled.edl"
+  8 "./SnapShot/browserdisabled.edl"
+  9 "./SnapShot/browserdisabled.edl"
+  10 "./SnapShot/browserdisabled.edl"
+  11 "./SnapShot/browserdisabled.edl"
+}
+menuLabel {
+  0 "Browser"
+}
+symbols {
+  1 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=Restore, TEXT=File Select"
+  2 "PARTICLE=Proton, DEFAULT=nDefault, ACTION=Restore, TEXT=File Select"
+  3 "PARTICLE=H2+, DEFAULT=nDefault, ACTION=Restore, TEXT=File Select"
+  4 "PARTICLE=Deuteron, DEFAULT=nDefault, ACTION=Restore, TEXT=File Select"
+  5 "PARTICLE=Helium3, DEFAULT=nDefault, ACTION=Restore, TEXT=File Select"
+  6 "PARTICLE=Alpha, DEFAULT=nDefault, ACTION=Restore, TEXT=File Select"
+  7 "PARTICLE=Proton, DEFAULT=Default, ACTION=Restore, TEXT=File Select"
+  8 "PARTICLE=H2+, DEFAULT=Default, ACTION=Restore, TEXT=File Select"
+  9 "PARTICLE=Deuteron, DEFAULT=Default, ACTION=Restore, TEXT=File Select"
+  10 "PARTICLE=Helium3, DEFAULT=Default, ACTION=Restore, TEXT=File Select"
+  11 "PARTICLE=Alpha, DEFAULT=Default, ACTION=Restore, TEXT=File Select"
+}
+noScroll
+endObjectProperties
+

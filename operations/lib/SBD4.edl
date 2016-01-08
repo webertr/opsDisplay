@@ -1,0 +1,321 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 86
+y 321
+w 225
+h 670
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 28
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Magnet Control"
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 50
+w 225
+h 630
+lineColor index 63
+fill
+fillColor index 63
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 55
+w 215
+h 75
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 230
+h 40
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 65
+bgColor index 44
+value {
+  "SBD 4"
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 75
+w 200
+h 45
+controlPv "BCAC:SBD4:TripPoint:Set"
+fgColor index 16
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1
+y 0
+w 15
+h 40
+lineColor index 29
+fill
+fillColor index 68
+lineWidth 2
+numPoints 4
+xPoints {
+  0 1
+  1 1
+  2 16
+  3 1
+}
+yPoints {
+  0 0
+  1 40
+  2 20
+  3 0
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 55
+w 124
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD 4 - Trip Point"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 140
+w 215
+h 310
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 170
+w 200
+h 45
+controlPv "BCAC:SBD4:A:HoleSize:Set"
+precision 2
+fgColor index 91
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 150
+w 134
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD 4-A - Hole Size"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 245
+w 200
+h 45
+controlPv "BCAC:SBD4:B:HoleSize:Set"
+precision 2
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 225
+w 134
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD 4-B - Hole Size"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 320
+w 200
+h 45
+controlPv "BCAC:SBD4:CW:HoleSize:Set"
+precision 2
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 300
+w 180
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD 4-C - Hole Size Width"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 395
+w 200
+h 45
+controlPv "BCAC:SBD4:CH:HoleSize:Set"
+precision 2
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 375
+w 184
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "SBD 4-C - Hole Size Height"
+}
+autoSize
+endObjectProperties
+

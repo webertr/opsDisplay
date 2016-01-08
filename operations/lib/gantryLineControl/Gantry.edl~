@@ -1,0 +1,1212 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 0
+y 53
+w 1600
+h 1106
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 50
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Gantry"
+showGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 40
+w 1062
+h 832
+lineColor index 35
+fill
+fillColor index 35
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTreatMode:Status,CYC:LineASelectedTestMode:Status)"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 40
+w 1062
+h 832
+lineColor index 63
+fill
+fillColor index 63
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTreatMode:Status,CYC:LineASelectedTestMode:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 1060
+h 40
+lineColor index 33
+fill
+fillColor index 33
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 0
+w 253
+h 40
+font "helvetica-bold-r-32.0"
+fgColor index 0
+bgColor index 0
+useDisplayBg
+value {
+  "Gantry Controls"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 25
+y 45
+w 1020
+h 40
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 105
+y 50
+w 310
+h 30
+fgColor index 25
+onColor index 20
+offColor index 20
+topShadowColor index 25
+botShadowColor index 25
+controlPv "Beamline:Gantry:System:Reset.PROC"
+pressValue "1"
+onLabel "Reset Gantry Controls"
+offLabel "Reset Gantry Controls"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 55
+y 115
+w 445
+h 285
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 130
+y 130
+w 295
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Gantry Correction Coil"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 300
+w 365
+h 85
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 250
+y 315
+w 42
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "GCC"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 305
+y 275
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "GCC:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 245
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "GCC:Device:Interlock:Status"
+visMin "1"
+visMax "2"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 90
+y 180
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SM01:BeamOn:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Coils SM01"
+offLabel "Init Coils SM01"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 90
+y 180
+w 375
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "GCC:Init:String.PROC"
+pressValue "1"
+onLabel "Init Coils GCC"
+offLabel "Init Coils GCC"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 115
+y 355
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "GCC:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 225
+y 355
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "GCC:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 335
+y 355
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "GCC:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 365
+y 240
+w 100
+h 50
+
+beginGroup
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 365
+y 240
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "GCC:On:Status"
+  1 "GCC:Request:Status"
+  2 "GCC:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 415
+y 245
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "GCC:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 370
+y 245
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "GCC:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 270
+w 100
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 99
+y 269
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "GCC"
+value {
+  "GCC"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 99
+y 269
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 99
+  1 99
+  2 109
+  3 99
+}
+yPoints {
+  0 279
+  1 269
+  2 269
+  3 279
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 95
+y 450
+w 298
+h 317
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 95
+y 450
+w 296
+h 38
+font "helvetica-medium-r-32.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTestMode:Status, CYC:LineASelectedTreatMode:Status)"
+visMin "0"
+visMax "1"
+value {
+  "Line A Not Selected"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 97
+y 729
+w 296
+h 38
+font "helvetica-medium-r-32.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTestMode:Status, CYC:LineASelectedTreatMode:Status)"
+visMin "0"
+visMax "1"
+value {
+  "Line A Not Selected"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 95
+y 583
+w 296
+h 38
+font "helvetica-medium-r-32.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTestMode:Status, CYC:LineASelectedTreatMode:Status)"
+visMin "0"
+visMax "1"
+value {
+  "Line A Not Selected"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 620
+y 460
+w 298
+h 317
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 620
+y 460
+w 296
+h 38
+font "helvetica-medium-r-32.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTestMode:Status, CYC:LineASelectedTreatMode:Status)"
+visMin "0"
+visMax "1"
+value {
+  "Line A Not Selected"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 622
+y 739
+w 296
+h 38
+font "helvetica-medium-r-32.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTestMode:Status, CYC:LineASelectedTreatMode:Status)"
+visMin "0"
+visMax "1"
+value {
+  "Line A Not Selected"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 620
+y 593
+w 296
+h 38
+font "helvetica-medium-r-32.0"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B\}(CYC:LineASelectedTestMode:Status, CYC:LineASelectedTreatMode:Status)"
+visMin "0"
+visMax "1"
+value {
+  "Line A Not Selected"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 565
+y 115
+w 445
+h 285
+lineColor index 64
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 595
+y 300
+w 384
+h 88
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 3
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 595
+y 270
+w 125
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 270
+w 125
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "GDP"
+value {
+  "GDP"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 595
+y 270
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 595
+  1 595
+  2 605
+  3 595
+}
+yPoints {
+  0 280
+  1 270
+  2 270
+  3 280
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 595
+y 185
+w 384
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 184
+w 384
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "GDP:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Initialize GDP"
+offLabel "Initialize GDP"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{A&!(B&(!C))\}(GDP:24Volt:Status,RF:HighPowerOn:Status,FC1:Closed:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 184
+w 384
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "GDP:Output:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize GDP"
+offLabel "Initialize GDP"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{A&(!B)\}(RF:HighPowerOn:Status,FC1:Closed:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 595
+y 184
+w 384
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "GDP:Output:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize GDP"
+offLabel "Initialize GDP"
+3d
+font "helvetica-medium-r-18.0"
+visPv "GDP:24Volt:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 725
+y 250
+w 152
+h 18
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "GDP:Device:Interlock:Status"
+visMin "1"
+visMax "2"
+value {
+  "Device Interlock"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 895
+y 355
+w 72
+h 18
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 45
+bgColor index 0
+useDisplayBg
+visPv "CALC\\\{A|B|!C\}(GDP:CommError:Status,GDP:HardwareError:Status,GDP:HeartbeatOK:Status)"
+visMin "1"
+visMax "2"
+value {
+  "Interlock"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 355
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "GDP:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 355
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "GDP:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 815
+y 275
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "GDP:NotLocal:Status"
+visMin "0"
+visMax "1"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 770
+y 320
+w 55
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "GDP"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 670
+y 130
+w 244
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "GDP Power Supply"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 305
+w 145
+h 45
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "GDP:24Volt:Status"
+visMin "0"
+visMax "1"
+value {
+  "Control Voltage"
+  "24 VDC Failure"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 880
+y 240
+w 100
+h 50
+
+beginGroup
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 880
+y 240
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "SWM:On:Status"
+  1 "SWM:Curr:Request:Status"
+  2 "CALC\\\{!A\}(SWM:NotLocal:Status)"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 935
+y 245
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SWM:Curr:OffRequest.PROC"
+releaseValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 885
+y 245
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SWM:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

@@ -1,0 +1,4724 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 0
+y 22
+w 1600
+h 1148
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 62
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 24
+y 308
+w 619
+h 552
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 24
+y 101
+w 619
+h 189
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 2
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 137
+w 255
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "MC:Output:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Initialize Main Coil"
+offLabel "Initialize Main Coil"
+3d
+font "helvetica-medium-r-18.0"
+visPv "CALC\\\{A&!B\}(MC:24Volt:Status,RF:HighPowerOn:Status)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 137
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MC:Output:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize Main Coil"
+offLabel "Initialize Main Coil"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 137
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MC:Output:Init:24Volt:CannotMsg.PROC"
+pressValue "1"
+onLabel "Initialize Main Coil"
+offLabel "Initialize Main Coil"
+3d
+font "helvetica-medium-r-18.0"
+visPv "MC:24Volt:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 667
+y 101
+w 378
+h 759
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 2
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 175
+w 300
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:Coil1-6:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Circular Coils 7-10"
+offLabel "Init Circular Coils 7-10"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 448
+y 680
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilD:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 260
+w 300
+h 290
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 359
+y 476
+w 250
+h 110
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 63
+y 202
+w 545
+h 85
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 1075
+h 40
+font "helvetica-bold-i-32.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 35
+value {
+  "Magnet System"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 285
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil1U"
+value {
+  "Coil 1U"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 715
+y 110
+w 199
+h 52
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Circular Coil"
+  "Power Supplies"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 715
+y 235
+w 97
+h 20
+font "new century schoolbook-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coils 1U-6"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 63
+y 102
+w 311
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Main Coil Power Supply"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 333
+y 237
+w 120
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Main Magnet"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 25
+y 51
+w 1020
+h 35
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 55
+y 316
+w 394
+h 26
+font "new century schoolbook-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Harmonic Coil Power Supplies"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 499
+y 491
+w 61
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil B1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 499
+y 521
+w 61
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil B2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 499
+y 551
+w 61
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil B3"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 64
+y 476
+w 255
+h 110
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 209
+y 491
+w 60
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil A1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 209
+y 521
+w 60
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil A2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 209
+y 551
+w 60
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil A3"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 735
+w 250
+h 110
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 206
+y 750
+w 62
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil C1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 206
+y 780
+w 62
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil C2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 206
+y 810
+w 62
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil C3"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 361
+y 735
+w 250
+h 110
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 501
+y 750
+w 61
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil D1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 501
+y 780
+w 61
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil D2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 501
+y 810
+w 61
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil D3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 320
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil1L"
+value {
+  "Coil 1L"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 355
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil2"
+value {
+  "Coil 2"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 390
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil3"
+value {
+  "Coil 3"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 425
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil4"
+value {
+  "Coil 4"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 460
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil5"
+value {
+  "Coil 5"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 495
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil6"
+value {
+  "Coil 6"
+}
+border
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 645
+w 300
+h 175
+lineColor index 14
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 670
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil7"
+value {
+  "Coil 7"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 715
+y 620
+w 92
+h 20
+font "new century schoolbook-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coils 7-10"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 705
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil8"
+value {
+  "Coil 8"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 740
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil9"
+value {
+  "Coil 9"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 875
+y 775
+w 100
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Coil10"
+value {
+  "Coil 10"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 63
+y 172
+w 125
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "Main_Coil"
+value {
+  "Main Coil"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 63
+y 172
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 63
+  1 63
+  2 73
+  3 63
+}
+yPoints {
+  0 182
+  1 172
+  2 172
+  3 182
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 285
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 295
+  1 285
+  2 285
+  3 295
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 320
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 330
+  1 320
+  2 320
+  3 330
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 355
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 365
+  1 355
+  2 355
+  3 365
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 390
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 400
+  1 390
+  2 390
+  3 400
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 425
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 435
+  1 425
+  2 425
+  3 435
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 460
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 470
+  1 460
+  2 460
+  3 470
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 495
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 505
+  1 495
+  2 495
+  3 505
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 670
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 680
+  1 670
+  2 670
+  3 680
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 705
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 715
+  1 705
+  2 705
+  3 715
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 740
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 750
+  1 740
+  2 740
+  3 750
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 875
+y 775
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 875
+  1 875
+  2 885
+  3 875
+}
+yPoints {
+  0 785
+  1 775
+  2 775
+  3 785
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 453
+y 177
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "MC:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 862
+y 235
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "CC:1-6:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 776
+y 210
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CC:1-6:Device:Interlock:Status"
+visMin "1"
+visMax "10"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 860
+y 620
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "CC:7-10:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 443
+y 423
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilB:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 150
+y 425
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilA:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 181
+y 397
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilA:GroundFaultOK:Status"
+visMin "0"
+visMax "1"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 152
+y 681
+w 48
+h 18
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilC:Local:Status"
+visMin "1"
+visMax "2"
+value {
+  "Local"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 179
+y 657
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilC:GroundFaultOK:Status"
+visMin "0"
+visMax "1"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 471
+y 657
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilD:GroundFaultOK:Status"
+visMin "0"
+visMax "1"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 175
+w 300
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "CC:1-6:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Init Circular Coils 1-6"
+offLabel "Init Circular Coils 1-6"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 106
+y 54
+w 310
+h 30
+fgColor index 25
+onColor index 20
+offColor index 20
+topShadowColor index 25
+botShadowColor index 25
+controlPv "Magnet:System:Reset.PROC"
+pressValue "1"
+onLabel "Reset Magnet System"
+offLabel "Reset Magnet System"
+3d
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 203
+y 237
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "MC:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 253
+y 237
+w 71
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "MC:Condition:Ramping:Status"
+visMin "1"
+visMax "2"
+value {
+  "Ramping"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 113
+y 237
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "MC:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 508
+y 152
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 11
+minValues {
+  0 8
+  1 3
+  2 10
+  3 1
+  4 12
+  5 7
+  6 5
+  7 14
+  8 11
+  9 9
+}
+maxValues {
+  0 9
+  1 4
+  2 11
+  3 2
+  4 13
+  5 8
+  6 6
+  7 15
+  8 12
+  9 10
+  10 1
+}
+controlPvs {
+  0 "MC:On:Status"
+  1 "MC:Output:Curr:Request:Status"
+  2 "MC:Local:Status"
+  3 "MC:Off:Status"
+}
+numPvs 4
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 157
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MC:Output:Curr:OffRequest.PROC"
+releaseValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 157
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "MC:Output:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 368
+y 157
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "MC:Device:Interlock:Status"
+visMin "1"
+visMax "50"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 423
+y 101
+w 145
+h 45
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 29
+bgColor index 64
+useDisplayBg
+visPv "MC:24Volt:Status"
+visMin "0"
+visMax "1"
+value {
+  "Control Voltage"
+  "24 VDC Failure"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 560
+w 300
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:Coil7-10:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Circular Coils 7-10"
+offLabel "Init Circular Coils 7-10"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 715
+y 560
+w 300
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "CC:7-10:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Init Circular Coils 7-10"
+offLabel "Init Circular Coils 7-10"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 915
+y 210
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "CC:1-6:On:Status"
+  1 "CC:1-6:Curr:Request:Status"
+  2 "CC:1-6:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 967
+y 215
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:1-6:Curr:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 920
+y 215
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:1-6:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 915
+y 595
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "CC:7-10:On:Status"
+  1 "CC:7-10:Curr:Request:Status"
+  2 "CC:7-10:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 967
+y 600
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:7-10:Curr:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 920
+y 600
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CC:7-10:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 774
+y 595
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "CC:7-10:Device:Interlock:Status"
+visMin "1"
+visMax "10"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 285
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil1U:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 299
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil1U:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 335
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil1L:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 320
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil1L:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 370
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil2:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 355
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil2:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 405
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil3:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 390
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil3:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 440
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil4:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 425
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil4:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 475
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil5:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1745
+y 470
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil5:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1745
+y 520
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil6:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 495
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil6:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 685
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil7:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 670
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil7:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 720
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil8:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 705
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil8:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 790
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil10:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 775
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil10:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 755
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil9:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 740
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil9:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 885
+y 265
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "CC:1-6:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 730
+y 265
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "CC:1-6:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 885
+y 650
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "CC:7-10:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 730
+y 650
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "CC:7-10:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 129
+y 486
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilA:PS1:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 109
+y 501
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilA:PS1:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 109
+y 531
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilA:PS2:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 129
+y 516
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilA:PS2:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 109
+y 561
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilA:PS3:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 129
+y 546
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilA:PS3:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 399
+y 501
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilB:PS1:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 419
+y 486
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilB:PS1:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 399
+y 561
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilB:PS3:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 419
+y 546
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilB:PS1:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 399
+y 531
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilB:PS2:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 419
+y 516
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilB:PS2:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 131
+y 745
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilC:PS1:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 111
+y 760
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilC:PS1:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 111
+y 790
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilC:PS2:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 131
+y 775
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilC:PS2:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 111
+y 820
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilC:PS3:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 131
+y 805
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilC:PS3:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 426
+y 745
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilD:PS1:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 406
+y 760
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilD:PS1:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 406
+y 790
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilD:PS2:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 426
+y 775
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilD:PS2:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 406
+y 820
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilD:PS3:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 426
+y 805
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "HC:CoilD:PS3:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 72
+y 638
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilC:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 460
+w 63
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil5:HardWareError:Status"
+visMin "1"
+visMax "2"
+value {
+  "HW Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 745
+y 510
+w 84
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 45
+bgColor index 20
+useDisplayBg
+visPv "CC:Coil6:CommError:Status"
+visMin "1"
+visMax "2"
+value {
+  "Comm Error"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 64
+y 421
+w 50
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil A"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 64
+y 446
+w 140
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 133
+y 446
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilA_Magnitude"
+value {
+  "Mag"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 64
+y 446
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilA_Angle"
+value {
+  "Angle"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 133
+y 446
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 133
+  1 133
+  2 143
+  3 133
+}
+yPoints {
+  0 456
+  1 446
+  2 446
+  3 456
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 64
+y 446
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 64
+  1 64
+  2 74
+  3 64
+}
+yPoints {
+  0 456
+  1 446
+  2 446
+  3 456
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 359
+y 446
+w 140
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 428
+y 446
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilB_Magnitude"
+value {
+  "Mag"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 359
+y 446
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilB_Angle"
+value {
+  "Angle"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 428
+y 446
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 428
+  1 428
+  2 438
+  3 428
+}
+yPoints {
+  0 456
+  1 446
+  2 446
+  3 456
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 359
+y 446
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 359
+  1 359
+  2 369
+  3 359
+}
+yPoints {
+  0 456
+  1 446
+  2 446
+  3 456
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 359
+y 421
+w 51
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil B"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 361
+y 680
+w 51
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil D"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 66
+y 680
+w 52
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Coil C"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 66
+y 705
+w 140
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 135
+y 705
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilC_Magnitude"
+value {
+  "Mag"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 66
+y 705
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilC_Angle"
+value {
+  "Angle"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 135
+y 705
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 135
+  1 135
+  2 145
+  3 135
+}
+yPoints {
+  0 715
+  1 705
+  2 705
+  3 715
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 66
+y 705
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 66
+  1 66
+  2 76
+  3 66
+}
+yPoints {
+  0 715
+  1 705
+  2 705
+  3 715
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 361
+y 705
+w 140
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 430
+y 705
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilD_Magnitude"
+value {
+  "Mag"
+}
+border
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 361
+y 705
+w 70
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 68
+alarmPv "CoilD_Angle"
+value {
+  "Angle"
+}
+border
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 430
+y 705
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 430
+  1 430
+  2 440
+  3 430
+}
+yPoints {
+  0 715
+  1 705
+  2 705
+  3 715
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 361
+y 705
+w 10
+h 10
+lineColor index 27
+fill
+fillColor index 27
+closePolygon
+numPoints 4
+xPoints {
+  0 361
+  1 361
+  2 371
+  3 361
+}
+yPoints {
+  0 715
+  1 705
+  2 705
+  3 715
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 64
+y 344
+w 255
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 64
+y 344
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilA:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Harmonic Coils A"
+offLabel "Init Harmonic Coils A"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 64
+y 344
+w 255
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "HC:CoilA:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Init Coils A"
+offLabel "Init Coils A"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 355
+y 343
+w 255
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 355
+y 343
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilB:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Harmonic Coils B"
+offLabel "Init Harmonic Coils B"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 355
+y 343
+w 255
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "HC:CoilB:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Init Coils B"
+offLabel "Init Coils B"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 62
+y 601
+w 255
+h 25
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 62
+y 601
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilC:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Harmonic Coils C"
+offLabel "Init Harmonic Coils C"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 62
+y 601
+w 255
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "HC:CoilC:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Init Coils C"
+offLabel "Init Coils C"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 356
+y 600
+w 256
+h 26
+
+beginGroup
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 356
+y 600
+w 255
+h 25
+fgColor index 0
+onColor index 4
+offColor index 4
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilB:Init:CannotMsg.PROC"
+pressValue "1"
+onLabel "Init Harmonic Coils D"
+offLabel "Init Harmonic Coils D"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 357
+y 601
+w 255
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "HC:CoilD:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "Init Coils D"
+offLabel "Init Coils D"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 363
+y 636
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilD:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 359
+y 375
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilB:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 480
+y 375
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilB:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 467
+y 396
+w 134
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 20
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilB:GroundFaultOK:Status"
+visMin "0"
+visMax "1"
+value {
+  "Device Interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 70
+y 376
+w 81
+h 21
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 84
+bgColor index 64
+useDisplayBg
+visPv "HC:CoilA:Condition:Initializing:Status"
+visMin "1"
+visMax "2"
+value {
+  "Initializing"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 191
+y 376
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilA:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 190
+y 639
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilC:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 479
+y 636
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilD:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 2205
+y 802
+w 121
+h 21
+font "helvetica-medium-r-18.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "HC:CoilC:Condition:ShuttingDown:Status"
+visMin "1"
+visMax "2"
+value {
+  "Shutting down"
+}
+autoSize
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 508
+y 424
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "HC:CoilB:On:Status"
+  1 "HC:CoilB:Curr:Request:Status"
+  2 "HC:CoilB:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 560
+y 429
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilB:Curr:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 513
+y 429
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilB:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 216
+y 683
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "HC:CoilC:On:Status"
+  1 "HC:CoilC:Curr:Request:Status"
+  2 "HC:CoilC:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 268
+y 688
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilC:Curr:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 221
+y 688
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilC:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 511
+y 683
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "HC:CoilD:On:Status"
+  1 "HC:CoilD:Curr:Request:Status"
+  2 "HC:CoilD:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 563
+y 688
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilD:Curr:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 516
+y 688
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilD:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 223
+y 429
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilA:Curr:OnRequest.PROC"
+pressValue "1"
+onLabel "Turn On"
+offLabel "Turn On"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 270
+y 429
+w 45
+h 35
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+controlPv "HC:CoilA:Curr:OffRequest.PROC"
+pressValue "1"
+onLabel "Turn Off"
+offLabel "Turn Off"
+3d
+invisible
+font "helvetica-medium-r-18.0"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 218
+y 424
+w 100
+h 50
+file "./symbols/opsOnOffButton.edl"
+truthTable
+numStates 8
+minValues {
+  1 3
+  2 2
+  3 1
+  4 4
+  5 7
+  6 6
+  7 5
+}
+maxValues {
+  0 1
+  1 4
+  2 3
+  3 2
+  4 5
+  5 8
+  6 7
+  7 6
+}
+controlPvs {
+  0 "HC:CoilA:On:Status"
+  1 "HC:CoilA:Curr:Request:Status"
+  2 "HC:CoilA:Local:Status"
+}
+numPvs 3
+useOriginalSize
+useOriginalColors
+fgColor index 0
+bgColor index 0
+endObjectProperties
+

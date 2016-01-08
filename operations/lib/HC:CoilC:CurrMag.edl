@@ -1,0 +1,800 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 738
+y 250
+w 618
+h 670
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 28
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Magnet Control"
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 50
+w 225
+h 630
+lineColor index 63
+fill
+fillColor index 63
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 520
+w 215
+h 70
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 190
+w 215
+h 325
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 273
+w 5
+h 40
+lineColor index 14
+fill
+fillColor index 13
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 55
+w 215
+h 130
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 230
+h 40
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 35
+value {
+  "Harmonic Coil C"
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 135
+w 195
+h 42
+controlPv "HC:CoilC:CurrAngle:Set"
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 120
+w 190
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Angle Set"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 60
+w 195
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Magnitude Set"
+}
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 273
+w 95
+h 40
+controlPv "HC:CoilC:PS1:Curr:Read"
+fgColor index 14
+fgAlarm
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 25
+y 255
+w 190
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Set      C-1      Read"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 450
+w 195
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Low Limit"
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 465
+w 195
+h 42
+controlPv "HC:CoilC:CurrMag:PLOW"
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 75
+w 195
+h 42
+controlPv "HC:CoilC:CurrMag:Set"
+precision 2
+fgColor index 91
+bgColor index 14
+colorPv "CALC\\\{G*((A|B|C)+2*(D|E|F))\}(HC:CoilC:PS1:PREADPSET:PDIFF:Calc2,HC:CoilC:PS2:PREADPSET:PDIFF:Calc2,HC:CoilC:PS2:PREADPSET:PDIFF:Calc2,HC:CoilC:PS1:PREADPSET:PDIFF:Calc,HC:CoilC:PS2:PREADPSET:PDIFF:Calc,HC:CoilC:PS3:PREADPSET:PDIFF:Calc,HC:CoilC:On:Status)"
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 320
+w 190
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "C-2"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 385
+w 190
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "C-3"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1
+y 0
+w 15
+h 40
+lineColor index 29
+fill
+fillColor index 68
+lineWidth 2
+numPoints 4
+xPoints {
+  0 1
+  1 1
+  2 16
+  3 1
+}
+yPoints {
+  0 0
+  1 40
+  2 20
+  3 0
+}
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 273
+w 95
+h 40
+controlPv "HC:CoilC:PS1:Curr:Set"
+precision 2
+fgColor index 90
+fgAlarm
+bgColor index 2
+colorPv "CALC\\\{C*(A+2*B)\}(HC:CoilC:PS1:PREADPSET:PDIFF:Calc2,HC:CoilC:PS1:PREADPSET:PDIFF:Calc,HC:CoilC:On:Status)"
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 194
+w 195
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High Limit"
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 209
+w 195
+h 42
+controlPv "HC:CoilC:CurrMag:PHIGH"
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 540
+w 195
+h 42
+controlPv "HC:CoilC:CurrMag:PDIFF"
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 525
+w 190
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PDIFF"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 595
+w 215
+h 70
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 600
+w 195
+h 15
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Tunning Knob Step Size"
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 615
+w 195
+h 42
+controlPv "HC:CoilC:CurrMag:PSENS"
+precision 2
+fgColor index 15
+bgColor index 14
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 338
+w 5
+h 40
+lineColor index 14
+fill
+fillColor index 13
+lineWidth 0
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 338
+w 95
+h 40
+controlPv "HC:CoilC:PS2:Curr:Read"
+fgColor index 14
+fgAlarm
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 338
+w 95
+h 40
+controlPv "HC:CoilC:PS2:Curr:Set"
+precision 2
+fgColor index 90
+fgAlarm
+bgColor index 2
+colorPv "CALC\\\{C*(A+2*B)\}(HC:CoilC:PS2:PREADPSET:PDIFF:Calc2,HC:CoilC:PS2:PREADPSET:PDIFF:Calc,HC:CoilC:On:Status)"
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 110
+y 403
+w 5
+h 40
+lineColor index 14
+fill
+fillColor index 13
+lineWidth 0
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 403
+w 95
+h 40
+controlPv "HC:CoilC:PS3:Curr:Read"
+fgColor index 14
+fgAlarm
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 403
+w 95
+h 40
+controlPv "HC:CoilC:PS3:Curr:Set"
+precision 2
+fgColor index 90
+fgAlarm
+bgColor index 2
+colorPv "CALC\\\{C*(A+2*B)\}(HC:CoilC:PS3:PREADPSET:PDIFF:Calc2,HC:CoilC:PS3:PREADPSET:PDIFF:Calc,HC:CoilC:On:Status)"
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 273
+w 95
+h 40
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 273
+w 95
+h 40
+controlPv "HC:CoilC:PS1:Curr:Read"
+fgColor index 0
+bgColor index 20
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|B|C\}(HC:CoilC:PS1:PREADPSET:PDIFF:Calc,HC:CoilC:PS1:PREAD:LTOE:PLOW:Calc,HC:CoilC:PS1:PREAD:GTOE:PHIGH:Calc)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 115
+y 273
+w 95
+h 40
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+visPv "HC:CoilC:On:Status"
+visMin "0"
+visMax "1"
+value {
+  "0.0"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 338
+w 95
+h 40
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 338
+w 95
+h 40
+controlPv "HC:CoilC:PS2:Curr:Read"
+fgColor index 0
+bgColor index 20
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|B|C\}(HC:CoilC:PS2:PREADPSET:PDIFF:Calc,HC:CoilC:PS2:PREAD:LTOE:PLOW:Calc,HC:CoilC:PS2:PREAD:GTOE:PHIGH:Calc)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 403
+w 95
+h 40
+
+beginGroup
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 115
+y 403
+w 95
+h 40
+controlPv "HC:CoilC:PS3:Curr:Read"
+fgColor index 0
+bgColor index 20
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+endGroup
+
+visPv "CALC\\\{A|B|C\}(HC:CoilC:PS3:PREADPSET:PDIFF:Calc,HC:CoilC:PS3:PREAD:LTOE:PLOW:Calc,HC:CoilC:PS3:PREAD:GTOE:PHIGH:Calc)"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 115
+y 338
+w 95
+h 40
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+visPv "HC:CoilC:On:Status"
+visMin "0"
+visMax "1"
+value {
+  "0.0"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 115
+y 403
+w 95
+h 40
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 2
+visPv "HC:CoilC:On:Status"
+visMin "0"
+visMax "1"
+value {
+  "0.0"
+}
+endObjectProperties
+

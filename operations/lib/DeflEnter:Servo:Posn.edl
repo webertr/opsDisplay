@@ -1,0 +1,379 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 144
+y 158
+w 225
+h 670
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 28
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Magnet Control"
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y -135
+w 225
+h 630
+lineColor index 63
+fill
+fillColor index 63
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 390
+w 215
+h 80
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 55
+w 215
+h 335
+lineColor index 63
+fill
+fillColor index 64
+lineWidth 2
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 205
+w 200
+h 45
+lineColor index 9
+fill
+fillColor index 13
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 0
+y 0
+w 230
+h 40
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 47
+value {
+  "Deflector Entrance"
+}
+endObjectProperties
+
+# (RegTextupdate)
+object RegTextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 25
+y 210
+w 165
+h 35
+controlPv "DeflEnter:Servo:Posn:Read"
+precision 2
+fgColor index 83
+fgAlarm
+bgColor index 49
+colorPv "CALC\\\{!A\}(DeflEnter:Servo:Posn:ErrorCombine)"
+fill
+font "helvetica-medium-r-18.0"
+endObjectProperties
+
+# Additional properties
+beginObjectProperties
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 140
+w 200
+h 45
+controlPv "DeflEnter:Servo:Posn:Set"
+displayMode "decimal"
+precision 2
+fgColor index 90
+bgColor index 2
+colorPv "CALC\\\{A*2\}(DeflEnter:Servo:Posn:PDIFF:Calc)"
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 85
+y 190
+w 46
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PRead"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 95
+y 125
+w 33
+h 16
+font "helvetica-bold-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PSet"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 85
+y 60
+w 51
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Hi Limit"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 75
+w 200
+h 45
+controlPv "DeflEnter:Servo:Posn:PHIGH"
+precision 1
+fgColor index 14
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 270
+w 195
+h 45
+controlPv "DeflEnter:Servo:Posn:PLOW"
+precision 1
+fgColor index 14
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 255
+w 64
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Low Limit"
+}
+autoSize
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 1
+y 0
+w 15
+h 40
+lineColor index 29
+fill
+fillColor index 68
+lineWidth 2
+numPoints 4
+xPoints {
+  0 1
+  1 1
+  2 16
+  3 1
+}
+yPoints {
+  0 0
+  1 40
+  2 20
+  3 0
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 15
+y 335
+w 195
+h 45
+controlPv "DeflEnter:Servo:Posn:PDiff"
+displayMode "decimal"
+precision 1
+fgColor index 14
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 400
+w 166
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Tunning Knob Step Size"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 420
+w 205
+h 40
+controlPv "DeflEnter:Servo:Posn:PSENS"
+fgColor index 14
+bgColor index 2
+fill
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 85
+y 320
+w 43
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PDIFF"
+}
+endObjectProperties
+

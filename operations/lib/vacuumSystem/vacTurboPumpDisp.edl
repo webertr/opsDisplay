@@ -1,0 +1,208 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 833
+y 400
+w 180
+h 200
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 12
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 59
+botShadowColor index 59
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 10
+w 160
+h 180
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 20
+w 144
+h 15
+font "courier-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Pump Group $(PG)"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 40
+w 153
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Turbo Pump Status"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 80
+w 90
+h 15
+font "courier-medium-r-14.0"
+fgColor index 84
+bgColor index 0
+useDisplayBg
+visPv "$(PG):TurboPump:StartMode:Status"
+visMin "1"
+visMax "2"
+value {
+  "Start Mode"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 60
+w 45
+h 15
+font "courier-medium-r-14.0"
+fgColor index 17
+bgColor index 0
+useDisplayBg
+visPv "$(PG):TurboPump:Ready:Status"
+visMin "1"
+visMax "2"
+value {
+  "Ready"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 105
+w 54
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Speed:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 130
+w 81
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High load"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 155
+w 153
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Waiting interlock"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 80
+y 105
+w 27
+h 15
+font "courier-bold-r-14.0"
+fgColor index 13
+bgColor index 0
+useDisplayBg
+value {
+  "123"
+}
+autoSize
+endObjectProperties
+

@@ -1,0 +1,121 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 212
+y 66
+w 458
+h 402
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 4
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 35
+y 26
+w 311
+h 28
+controlPv "CCC:OpsDisplay:System:WritePre"
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 113
+w 136
+h 57
+fgColor index 14
+onColor index 0
+offColor index 0
+topShadowColor index 0
+botShadowColor index 14
+onLabel "BEAM ON"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "1"
+colorPv "RF:HighPowerOn:Status"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 70
+y 285
+w 200
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "CC:1-6:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "BEAM ON"
+offLabel "BEAM OFF"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 245
+y 229
+w 200
+h 25
+fgColor index 25
+onColor index 45
+offColor index 45
+topShadowColor index 25
+botShadowColor index 25
+controlPv "CC:1-6:Curr:Init:String.PROC"
+pressValue "1"
+onLabel "BEAM ON"
+offLabel "BEAM OFF"
+3d
+font "helvetica-medium-r-18.0"
+visPv "RF:HighPowerOn:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+

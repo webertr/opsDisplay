@@ -1,0 +1,72 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 666
+y 321
+w 180
+h 40
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 64
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 5
+w 166
+h 32
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 4
+visPv "MOD1:Input0408:Read"
+visMin "1"
+visMax "2"
+value {
+  "Setting May not be "
+  "restored when beam is on"
+}
+autoSize
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 5
+y 5
+w 170
+h 30
+fgColor index 14
+bgColor index 68
+topShadowColor index 68
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+buttonLabel "$(TEXT)"
+numCmds 1
+command {
+  0 "../bin/browse.py $(PARTICLE) $(DEFAULT) $(ACTION) qt"
+}
+endObjectProperties
+

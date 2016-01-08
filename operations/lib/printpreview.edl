@@ -1,0 +1,14013 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 219
+y 86
+w 1075
+h 875
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 5
+endScreenProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 975
+y 10
+w 80
+h 30
+fgColor index 14
+onColor index 5
+offColor index 5
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+releaseValue "11"
+3d
+invisible
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 405
+w 60
+h 16
+controlPv "RF:DC1:GridTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 405
+w 60
+h 16
+controlPv "ISG:GasFlow:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 905
+y 530
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "TANK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 815
+y 530
+w 55
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "BACKING"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 480
+y 530
+w 55
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "BACKING"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 570
+y 530
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "TANK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 225
+y 530
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "TANK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 135
+y 530
+w 55
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "BACKING"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 530
+w 96
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Vacuum system"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 390
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 390
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 995
+y 260
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 80
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 840
+y 80
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 80
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 80
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 80
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 80
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 80
+w 93
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Magnet system"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 780
+y 260
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 905
+y 830
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 830
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 755
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 755
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 830
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 830
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 830
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 830
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 755
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 755
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 755
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 905
+y 755
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 905
+y 650
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 650
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 650
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 650
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 650
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 650
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 605
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 605
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 485
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 485
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 260
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 260
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 260
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 260
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 830
+w 70
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Beam line C"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 755
+w 71
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Beam line B"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 650
+w 70
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Beam line A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 485
+w 111
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Beam diag system"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 260
+w 65
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "RF system"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 40
+w 1070
+h 35
+lineColor index 14
+fill
+fillColor index 49
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 15
+y 20
+w 68
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Operator:"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 250
+y 20
+w 56
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Printed:"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 315
+y 20
+w 155
+h 15
+controlPv "CCC:OpsDisplay:Operator:TimeStamp"
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 90
+y 20
+w 110
+h 15
+controlPv "CCC:OpsDisplay:Operator:Name"
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 95
+w 60
+h 14
+controlPv "MC:Output:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 95
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "MAINCOIL"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 95
+w 76
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR1U"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 110
+w 75
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR1L"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 125
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 140
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "CRDCORR 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 155
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "CRDCORR 4"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 575
+y 95
+w 30
+h 14
+controlPv "MC:Output:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 95
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 95
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 95
+w 30
+h 14
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 95
+w 30
+h 14
+controlPv "CC:Coil1U:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 110
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 110
+w 30
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 110
+w 30
+h 14
+controlPv "CC:Coil1L:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 125
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 125
+w 30
+h 14
+controlPv "CC:Coil2:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 125
+w 30
+h 14
+controlPv "CC:Coil2:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 140
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 140
+w 30
+h 14
+controlPv "CC:Coil3:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 140
+w 30
+h 14
+controlPv "CC:Coil3:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 155
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 155
+w 30
+h 14
+controlPv "CC:Coil4:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 155
+w 30
+h 14
+controlPv "CC:Coil4:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 10
+y 40
+w 1050
+h 35
+controlPv "CCC:SR:temp:print"
+fgColor index 14
+bgColor index 0
+fill
+font "new century schoolbook-medium-r-12.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 170
+w 30
+h 14
+controlPv "CC:Coil5:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 170
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR 5"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 185
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR 6"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 200
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR 7"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 215
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRDCORR 8"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 230
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "CRDCORR 9"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 245
+w 75
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "CRDCORR10"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 170
+w 30
+h 14
+controlPv "CC:Coil5:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 170
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 185
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 185
+w 30
+h 14
+controlPv "CC:Coil6:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 185
+w 30
+h 14
+controlPv "CC:Coil6:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 200
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 200
+w 30
+h 14
+controlPv "CC:Coil7:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 200
+w 30
+h 14
+controlPv "CC:Coil7:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 215
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 215
+w 30
+h 14
+controlPv "CC:Coil8:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 215
+w 30
+h 14
+controlPv "CC:Coil8:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 230
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 230
+w 30
+h 14
+controlPv "CC:Coil9:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 230
+w 30
+h 14
+controlPv "CC:Coil9:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 245
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 230
+y 245
+w 30
+h 14
+controlPv "CC:Coil10:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 160
+y 245
+w 30
+h 14
+controlPv "CC:Coil10:Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 110
+w 60
+h 16
+controlPv "HC:CoilA:CurrMag:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 110
+w 80
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC A MAG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 545
+y 110
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 320
+w 63
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "FINETUN 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 305
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "CRSETUN 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 290
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "COUPCAP 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 275
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRIDTUN 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 275
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 290
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 305
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 320
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 320
+w 60
+h 14
+controlPv "RF:DC1:FineTune:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 320
+w 60
+h 14
+controlPv "RF:DC1:FineTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 305
+w 60
+h 14
+controlPv "RF:DC1:CourseTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 305
+w 60
+h 14
+controlPv "RF:DC1:CourseTune:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 290
+w 60
+h 14
+controlPv "RF:DC1:CouplingCapacitor:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 290
+w 60
+h 14
+controlPv "RF:DC1:CouplingCapacitor:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 275
+w 60
+h 14
+controlPv "RF:DC1:GridTune:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 275
+w 60
+h 14
+controlPv "RF:DC1:GridTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 275
+w 63
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "FINETUN 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 365
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "CRSETUN 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 350
+w 72
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "COUPCAP 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 335
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GRIDTUN 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 335
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 350
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 365
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 275
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 275
+w 60
+h 16
+controlPv "RF:DC2:FineTune:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 275
+w 60
+h 16
+controlPv "RF:DC2:FineTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 365
+w 60
+h 16
+controlPv "RF:DC2:CourseTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 365
+w 60
+h 16
+controlPv "RF:DC2:CourseTune:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 350
+w 60
+h 16
+controlPv "RF:DC2:CouplingCapacitor:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 350
+w 60
+h 16
+controlPv "RF:DC2:CouplingCapacitor:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 335
+w 60
+h 16
+controlPv "RF:DC2:GridTune:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 335
+w 60
+h 16
+controlPv "RF:DC2:GridTune:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 390
+w 107
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Ionsource system"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 405
+w 62
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GASFLOW"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 390
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 390
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 190
+y 405
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 405
+w 14
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "cc"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 425
+w 97
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Extract. system"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 440
+w 63
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "EMCCORR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 220
+y 425
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 160
+y 425
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 440
+w 60
+h 14
+controlPv "PSHV:EMC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 440
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 440
+w 56
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DFLENTR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 440
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 455
+w 51
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DFLEXIT"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 455
+w 60
+h 14
+controlPv "PSHV:DeflectorExit:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 470
+w 55
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "EMCEXIT"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 470
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 425
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 425
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 455
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 455
+w 60
+h 14
+controlPv "PSHV:SeptumTemp:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 440
+w 60
+h 14
+controlPv "PSHV:Deflector:Volt:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 440
+w 15
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "kV"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 840
+y 425
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 425
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 455
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 455
+w 58
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "INT STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 440
+w 57
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DFLVOLT"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 440
+w 60
+h 14
+controlPv "PSHV:Deflector:Volt:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 455
+w 60
+h 14
+controlPv "PSHV:DeflectorExit:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 470
+w 60
+h 14
+controlPv "PSHV:EMCExit:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 470
+w 60
+h 14
+controlPv "PSHV:EMCExit:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 440
+w 60
+h 14
+controlPv "PSHV:DeflectorEntrance:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 440
+w 60
+h 14
+controlPv "PSHV:DeflectorEntrance:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 440
+w 60
+h 14
+controlPv "PSHV:EMC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 515
+w 66
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DFLPROBE"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 515
+w 60
+h 14
+controlPv "BDS:DP:Position:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 515
+w 16
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "cm"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 515
+w 60
+h 14
+controlPv "BDS:DP:Position:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 605
+w 100
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Beam line to FC1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 620
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q1 LENS 1"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 620
+w 60
+h 14
+controlPv "PSHV:EMC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 620
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 635
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q1 LENS 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 620
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q1 LENS 3"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 620
+w 60
+h 14
+controlPv "PSHV:DeflectorExit:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 635
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "X0  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 605
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 565
+y 605
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 620
+w 60
+h 14
+controlPv "PSHV:SeptumTemp:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 635
+w 60
+h 14
+controlPv "PSHV:Deflector:Volt:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 845
+y 605
+w 31
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSET"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 905
+y 605
+w 42
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PREAD"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 620
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 620
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "X1  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 635
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Y1  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 635
+w 60
+h 14
+controlPv "PSHV:Deflector:Volt:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 620
+w 60
+h 14
+controlPv "PSHV:DeflectorExit:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 635
+w 60
+h 14
+controlPv "PSHV:EMCExit:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 635
+w 60
+h 14
+controlPv "PSHV:EMCExit:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 635
+w 60
+h 14
+controlPv "PSHV:DeflectorEntrance:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 635
+w 60
+h 14
+controlPv "PSHV:DeflectorEntrance:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 620
+w 60
+h 14
+controlPv "PSHV:EMC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 635
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 620
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 635
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 635
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 620
+w 60
+h 14
+controlPv "PSHV:Deflector:Volt:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 665
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 665
+w 76
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q2ALENS 13"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 680
+w 69
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q2ALENS 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 695
+w 76
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q3ALENS 13"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 710
+w 69
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q3ALENS 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 725
+w 66
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "QG LENS 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 740
+w 66
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "QG LENS 2"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 665
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 665
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 680
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 680
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 680
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 695
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 695
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 695
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 710
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 710
+w 60
+h 14
+controlPv "CC:Coil2:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 710
+w 60
+h 14
+controlPv "CC:Coil2:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 725
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 725
+w 60
+h 14
+controlPv "CC:Coil3:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 725
+w 60
+h 14
+controlPv "CC:Coil3:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 740
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 740
+w 60
+h 14
+controlPv "CC:Coil4:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 740
+w 60
+h 14
+controlPv "CC:Coil4:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 665
+w 66
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "QG LENS 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 665
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 665
+w 60
+h 14
+controlPv "CC:Coil4:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 665
+w 60
+h 14
+controlPv "CC:Coil4:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 680
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 680
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "X2A STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 695
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Y2A STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 710
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "X3A STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 725
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Y3A STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 740
+w 60
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GTYCORR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 665
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "GTYDPOL"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 680
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 680
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 695
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 695
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 695
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 710
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 710
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 710
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 725
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 725
+w 60
+h 14
+controlPv "CC:Coil2:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 725
+w 60
+h 14
+controlPv "CC:Coil2:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 740
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 740
+w 60
+h 14
+controlPv "CC:Coil3:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 740
+w 60
+h 14
+controlPv "CC:Coil3:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 665
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 665
+w 60
+h 14
+controlPv "CC:Coil4:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 665
+w 60
+h 14
+controlPv "CC:Coil4:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 680
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 680
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "XG  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 695
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "YG  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 710
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "XWG STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 725
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "YWG STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 740
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SWTMAGN"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 680
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 680
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 695
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 695
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 695
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 710
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 710
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 710
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 725
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 725
+w 60
+h 14
+controlPv "CC:Coil2:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 725
+w 60
+h 14
+controlPv "CC:Coil2:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 740
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 740
+w 60
+h 14
+controlPv "CC:Coil3:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 740
+w 60
+h 14
+controlPv "CC:Coil3:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 770
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 770
+w 75
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q2BLENS 13"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 785
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q2BLENS 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 800
+w 75
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q3BLENS 13"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 815
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Q3BLENS 2"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 770
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 770
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 785
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 785
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 785
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 800
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 800
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 800
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 815
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 815
+w 60
+h 14
+controlPv "CC:Coil2:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 815
+w 60
+h 14
+controlPv "CC:Coil2:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 770
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 770
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 770
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 785
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 785
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 785
+w 60
+h 14
+controlPv "CC:Coil1U:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 800
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 800
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 800
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 815
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 815
+w 60
+h 14
+controlPv "CC:Coil2:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 815
+w 60
+h 14
+controlPv "CC:Coil2:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 770
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 770
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "XG  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 785
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "YG  STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 800
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "XWG STMG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 815
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "YWG STMG"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 770
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 770
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 785
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 785
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 785
+w 60
+h 14
+controlPv "CC:Coil1L:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 785
+w 76
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "BENDMAG C"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 770
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SWTMAGN"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 845
+w 60
+h 14
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 845
+w 64
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SWTMAGN"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 845
+w 63
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "NMRFIELD"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 845
+w 60
+h 14
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 845
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 955
+y 845
+w 15
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "kG"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 885
+y 845
+w 60
+h 16
+controlPv "CC:Coil1U:Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 815
+y 845
+w 60
+h 16
+controlPv "CC:Coil1U:Curr:SetDevice"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 845
+w 60
+h 16
+controlPv "MC:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 845
+w 60
+h 16
+controlPv "MC:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 845
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 845
+w 76
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "BENDMAG C"
+}
+autoSize
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 975
+y 10
+w 80
+h 30
+fgColor index 14
+bgColor index 5
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-14.0"
+buttonLabel "Print"
+numCmds 1
+command {
+  0 "xwd -display <DSPNAME> -id <WINID> | xwdtopnm | pnmdepth 255 | pnmtops | lp -d ps143e "
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 885
+y 10
+w 80
+h 30
+fgColor index 14
+onColor index 5
+offColor index 5
+topShadowColor index 0
+botShadowColor index 14
+controlPv "LOC\\System:i=0"
+releaseValue "11"
+onLabel "Cancel"
+offLabel "Cancel"
+3d
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 260
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 390
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 425
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 485
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 530
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 650
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 755
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 830
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 335
+w 50
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "RFFREQ"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 320
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DEEPHAS"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 305
+w 69
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DEEVOLT 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 290
+w 69
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DEEVOLT 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 290
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 305
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "%"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 320
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 335
+w 26
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "MHz"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 335
+w 60
+h 14
+controlPv "RF:AC:Freq:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 320
+w 60
+h 16
+controlPv "RF:AC:InterDeePhase:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 290
+w 60
+h 16
+controlPv "RF:AC1:UDee:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 290
+w 60
+h 16
+controlPv "RF:AC1:UDee:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 305
+w 60
+h 16
+controlPv "RF:AC2:UDee:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 305
+w 60
+h 16
+controlPv "RF:AC2:UDee:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 320
+w 60
+h 16
+controlPv "RF:AC:InterDeePhase:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 335
+w 60
+h 16
+controlPv "RF:AC:Freq:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 125
+w 78
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC A ANG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 140
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC A1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 155
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC A2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 170
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC A3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 185
+w 79
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC B MAG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 200
+w 77
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC B ANG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 215
+w 53
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC B1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 230
+w 53
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC B2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 245
+w 53
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC B3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 110
+w 80
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC C MAG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 125
+w 78
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC C ANG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 140
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC C1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 155
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC C2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 170
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC C3"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 125
+w 60
+h 16
+controlPv "HC:CoilA:CurrAngle:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 545
+y 125
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 140
+w 60
+h 14
+controlPv "HC:CoilA:PS1Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 140
+w 60
+h 14
+controlPv "HC:CoilA:PS1Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 155
+w 60
+h 14
+controlPv "HC:CoilA:PS2Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 155
+w 60
+h 14
+controlPv "HC:CoilA:PS2Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 170
+w 60
+h 14
+controlPv "HC:CoilA:PS3Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 170
+w 60
+h 14
+controlPv "HC:CoilA:PS3Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 140
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 155
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 170
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 545
+y 185
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 185
+w 60
+h 14
+controlPv "HC:CoilB:CurrMag:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 200
+w 60
+h 14
+controlPv "HC:CoilB:CurrAngle:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 545
+y 200
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 215
+w 60
+h 14
+controlPv "HC:CoilB:PS1Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 215
+w 60
+h 14
+controlPv "HC:CoilB:PS1Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 230
+w 60
+h 14
+controlPv "HC:CoilB:PS2Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 230
+w 60
+h 14
+controlPv "HC:CoilB:PS2Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 245
+w 60
+h 14
+controlPv "HC:CoilB:PS3Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 245
+w 60
+h 14
+controlPv "HC:CoilB:PS3Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 215
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 230
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 245
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 125
+w 60
+h 14
+controlPv "HC:CoilC:CurrAngle:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 880
+y 125
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 140
+w 60
+h 14
+controlPv "HC:CoilC:PS1Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 140
+w 60
+h 14
+controlPv "HC:CoilC:PS1Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 155
+w 60
+h 14
+controlPv "HC:CoilC:PS2Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 155
+w 60
+h 14
+controlPv "HC:CoilC:PS2Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 170
+w 60
+h 14
+controlPv "HC:CoilC:PS3Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 170
+w 60
+h 14
+controlPv "HC:CoilC:PS3Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 140
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 155
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 170
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 880
+y 110
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 110
+w 60
+h 14
+controlPv "HC:CoilC:CurrMag:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 245
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC D3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 185
+w 80
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC D MAG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 200
+w 78
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC D ANG"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 215
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC D1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 230
+w 54
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PSHC D2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 245
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 230
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 215
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 215
+w 60
+h 14
+controlPv "HC:CoilD:PS1Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 230
+w 60
+h 14
+controlPv "HC:CoilD:PS2Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 245
+w 60
+h 14
+controlPv "HC:CoilD:PS3Curr:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 245
+w 60
+h 14
+controlPv "HC:CoilD:PS3Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 230
+w 60
+h 14
+controlPv "HC:CoilD:PS2Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 215
+w 60
+h 14
+controlPv "HC:CoilD:PS1Curr:Read"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 880
+y 200
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 880
+y 185
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 200
+w 60
+h 14
+controlPv "HC:CoilD:CurrAngle:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 185
+w 60
+h 14
+controlPv "HC:CoilD:CurrMag:Set"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 350
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "I-CA 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 365
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "U-G1 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 275
+w 35
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "I-G2 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 290
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "I-AN 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 320
+w 40
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "U-G1 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 335
+w 35
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "I-G2 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 350
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 350
+w 60
+h 14
+controlPv "RF:DC1:Cathode:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 350
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "I-AN 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 365
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A-GPHAS 1"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 365
+w 60
+h 14
+controlPv "RF:DC1:G1:Volt:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 365
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "V"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 275
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 275
+w 60
+h 14
+controlPv "RF:DC1:G1:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 290
+w 60
+h 14
+controlPv "RF:DC1:Anode:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 320
+w 60
+h 14
+controlPv "RF:DC2:G1:Volt:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 685
+y 305
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "I-CA 2"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 335
+w 60
+h 14
+controlPv "RF:DC2:G2:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 350
+w 60
+h 14
+controlPv "RF:DC2:Anode:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 305
+w 60
+h 14
+controlPv "RF:DC2:Cathode:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 305
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 290
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 335
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 350
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 320
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "V"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 830
+y 365
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 760
+y 365
+w 60
+h 14
+controlPv "RF:AC1:AnodeGridPhase"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 275
+w 50
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "UR-AN 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 290
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "P-FORW 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 365
+w 68
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A-GPHAS 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 275
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 975
+y 290
+w 60
+h 14
+controlPv "RF:AC1:ForwardDrive:Power:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 305
+w 55
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "P-REFL 1"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 975
+y 350
+w 60
+h 14
+controlPv "RF:AC2:ReflectedDrive:Power:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 305
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "W"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 290
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "W"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 335
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "W"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 350
+w 11
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "W"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 320
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "V"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1045
+y 365
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg."
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 975
+y 365
+w 60
+h 14
+controlPv "RF:AC2:AnodeGridPhase"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 350
+w 55
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "P-REFL 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 335
+w 61
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "P-FORW 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 900
+y 320
+w 50
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "UR-AN 2"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 975
+y 305
+w 60
+h 14
+controlPv "RF:AC1:ReflectedDrive:Power:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 975
+y 335
+w 60
+h 14
+controlPv "RF:AC2:ForwardDrive:Power:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 405
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "V"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 405
+w 60
+h 14
+controlPv "PSARC:Volt:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 405
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "ARCVOLT"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 405
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 405
+w 60
+h 14
+controlPv "PSARC:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 405
+w 59
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "ARCCURR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 455
+w 57
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "DFLCURR"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 470
+w 58
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SEPTEMP"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 455
+w 60
+h 14
+controlPv "PSHV:Deflector:Curr:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 455
+w 9
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 470
+w 60
+h 14
+controlPv "PSHV:SeptumTemp:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 470
+w 34
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "deg C"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 500
+w 56
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "MAINPRB"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 325
+y 490
+w 34
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Foc R"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 270
+y 500
+w 16
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "cm"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 500
+w 60
+h 14
+controlPv "BDS:MPPC:Position:PRead"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 500
+w 60
+h 14
+controlPv "BDS:MPPC:Position:PSet"
+format "decimal"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 605
+w 1075
+h 0
+lineColor index 14
+fillColor index 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 545
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 560
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 575
+w 47
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PGSWM"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 560
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG A2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 545
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG A1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 265
+y 575
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 265
+y 560
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 265
+y 545
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 560
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 545
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 95
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil1U:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 110
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil1L:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 125
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil2:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 140
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil3:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 155
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil4:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 170
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil5:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 185
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil6:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 200
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil7:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 215
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil8:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 230
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil9:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 245
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+numStates 2
+minValues {
+  1 1
+}
+maxValues {
+  0 1
+  1 2
+}
+controlPvs {
+  0 "CC:Coil10:PolPosRequest"
+}
+numPvs 1
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 95
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil1U:Polarity:Positive"
+  1 "CC:Coil1U:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 110
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil1L:Polarity:Positive"
+  1 "CC:Coil1L:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 125
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil2:Polarity:Positive"
+  1 "CC:Coil2:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 140
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil3:Polarity:Positive"
+  1 "CC:Coil3:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 155
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil4:Polarity:Positive"
+  1 "CC:Coil4:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 170
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil5:Polarity:Positive"
+  1 "CC:Coil5:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 185
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil6:Polarity:Positive"
+  1 "CC:Coil6:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 200
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil7:Polarity:Positive"
+  1 "CC:Coil7:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 215
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil8:Polarity:Positive"
+  1 "CC:Coil8:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 230
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil9:Polarity:Positive"
+  1 "CC:Coil9:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Symbol)
+object activeSymbolClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 220
+y 245
+w 10
+h 14
+file "symPrintPlusMinus.edl"
+truthTable
+numStates 3
+minValues {
+  0 2
+  1 1
+}
+maxValues {
+  0 3
+  1 2
+  2 4
+}
+controlPvs {
+  0 "CC:Coil10:Polarity:Positive"
+  1 "CC:Coil10:Polarity:Negative"
+}
+numPvs 2
+useOriginalSize
+useOriginalColors
+fgColor index 14
+bgColor index 0
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 545
+w 60
+h 14
+controlPv "VAC:PG1:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 560
+w 60
+h 14
+controlPv "VAC:PG2:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 130
+y 575
+w 60
+h 14
+controlPv "VAC:PGSWM:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 545
+w 60
+h 14
+controlPv "VAC:PGA1:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 560
+w 60
+h 14
+controlPv "VAC:PGA2:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 590
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG B2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 375
+y 575
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG B1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 560
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 545
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 575
+w 60
+h 14
+controlPv "VAC:PGB1:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 475
+y 590
+w 60
+h 14
+controlPv "VAC:PGB2:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 545
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG C1"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 545
+w 60
+h 15
+controlPv "VAC:PGC1:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 560
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG Z1"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 545
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 545
+w 60
+h 14
+controlPv "VAC:PG1:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "CYC:PenningGauge:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 545
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 545
+w 60
+h 14
+controlPv "VAC:PG1:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "CYC:PenningGauge:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 575
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 575
+w 60
+h 14
+controlPv "VAC:PGSWM:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGSWM:PenningGauge:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 200
+y 575
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 200
+y 575
+w 60
+h 14
+controlPv "VAC:PGSWM:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "CYC:PenningGauge:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 545
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 545
+w 60
+h 14
+controlPv "VAC:PGA1:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGA1:PenningGauge:OnOff:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 545
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 545
+w 60
+h 14
+controlPv "VAC:PGA1:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGA1:PenningGauge:OnOff:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 560
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 560
+w 60
+h 14
+controlPv "VAC:PGA2:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGA2:PenningGauge:OnOff:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 560
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 560
+w 60
+h 14
+controlPv "VAC:PGA2:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGA2:PenningGauge:OnOff:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 575
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 575
+w 60
+h 14
+controlPv "VAC:PGB1:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGB1:PenningGauge:OnOff:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 575
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 575
+w 60
+h 14
+controlPv "VAC:PGB1:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGB1:PenningGauge:OnOff:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 590
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 590
+w 60
+h 14
+controlPv "VAC:PGB2:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGB2:PenningGauge:OnOff:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 545
+y 590
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 545
+y 590
+w 60
+h 14
+controlPv "VAC:PGB2:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGB2:PenningGauge:OnOff:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 590
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 615
+y 575
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 575
+w 46
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "PG TGZ"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 880
+y 545
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 545
+w 60
+h 14
+controlPv "VAC:PGC1:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGC1:PenningGauge:OnOff:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 880
+y 545
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 545
+w 60
+h 14
+controlPv "VAC:PGC1:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGC1:PenningGauge:OnOff:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 560
+w 60
+h 14
+controlPv "VAC:PGZ1:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 880
+y 560
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 560
+w 60
+h 14
+controlPv "VAC:PGZ1:PressureB1:PenningTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGZ1:PenningGauge:OnOff:Status"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 880
+y 560
+w 60
+h 14
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 880
+y 560
+w 60
+h 14
+controlPv "VAC:PGZ1:PressureA2:PiraniTank"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+visPv "PGZ1:PenningGauge:OnOff:Status"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 810
+y 575
+w 60
+h 14
+controlPv "VAC:PGTGZ:PressureA1:PiraniFV"
+format "exponential"
+font "helvetica-medium-r-12.0"
+fontAlign "right"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+precision 1
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 950
+y 575
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "mbar"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 20
+w 110
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Loaded Setting:"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 5
+release 0
+x 620
+y 20
+w 235
+h 16
+controlPv "CCC:SR:current"
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 47
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+nullCondition "disabled"
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+noExecuteClipMask
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 975
+y 10
+w 80
+h 30
+fgColor index 14
+bgColor index 0
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+invisible
+numCmds 1
+command {
+  0 "caput CCC:OpsDisplay:System:Write Printing\\ Current\\ Status"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 325
+y 505
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Foc L"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 325
+y 520
+w 34
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "ISM R"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 415
+y 520
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SBD 2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 415
+y 505
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SBD 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 415
+y 490
+w 33
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "ISM L"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 520
+w 35
+h 10
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SBD 3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 505
+w 30
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SWM"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 505
+y 490
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "FC1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 583
+y 517
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SBD 5"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 583
+y 502
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SBD 4"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 583
+y 487
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "FC2"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 671
+y 517
+w 35
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Iso Up"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 671
+y 502
+w 37
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Iso Tgt"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 671
+y 487
+w 24
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "FC3"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 769
+y 516
+w 27
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Iso L"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 769
+y 501
+w 28
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Iso R"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 769
+y 486
+w 36
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Iso Dn"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 864
+y 516
+w 29
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Z Dn"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 864
+y 501
+w 28
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Z Up"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 864
+y 486
+w 38
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "SBD G"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 961
+y 517
+w 30
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Z Tgt"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 961
+y 502
+w 20
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Z L"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 961
+y 487
+w 21
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+bgAlarm
+value {
+  "Z R"
+}
+autoSize
+endObjectProperties
+

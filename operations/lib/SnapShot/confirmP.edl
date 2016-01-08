@@ -1,0 +1,134 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 490
+y 700
+w 350
+h 160
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+endScreenProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 110
+w 110
+h 30
+fgColor index 14
+bgColor index 10
+topShadowColor index 5
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+closeDisplay
+buttonLabel "Print"
+numCmds 1
+command {
+  0 "/usr/local/cnts/epics/operations/bin/print.sh"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 20
+w 330
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Print the save setting?"
+}
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 210
+y 110
+w 110
+h 30
+fgColor index 14
+bgColor index 10
+topShadowColor index 5
+botShadowColor index 14
+label "Cancel"
+font "helvetica-medium-r-18.0"
+3d
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 50
+w 330
+h 20
+controlPv "CCC:SR:temp"
+format "string"
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 63
+nullColor index 0
+defDir "./SnapShot/StoredSettings"
+fileComponent "nameAndExt"
+newPos
+objType "controls"
+endObjectProperties
+
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 80
+w 330
+h 20
+controlPv "LOC\\desc=s:$(DESC)"
+format "string"
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 63
+nullColor index 0
+defDir "./SnapShot/StoredSettings"
+fileComponent "nameAndExt"
+newPos
+objType "controls"
+endObjectProperties
+

@@ -1,0 +1,59 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 5
+y 49
+w 225
+h 670
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 5
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Magnet Control"
+showGrid
+gridSize 5
+endScreenProperties
+
+# (PNG Image)
+object activePngClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 45
+y 179
+w 130
+h 186
+file "RadSign1.png"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 23
+y 12
+w 168
+h 14
+font "helvetica-medium-i-10.0"
+fontAlign "center"
+fgColor index 47
+bgColor index 0
+value {
+  "drop device to be assigned here"
+}
+border
+endObjectProperties
+

@@ -1,0 +1,87 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 440
+y 926
+w 350
+h 140
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+endScreenProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 30
+y 80
+w 110
+h 30
+fgColor index 14
+bgColor index 10
+topShadowColor index 5
+botShadowColor index 14
+font "helvetica-medium-r-18.0"
+closeDisplay
+buttonLabel "Print"
+numCmds 1
+command {
+  0 "/usr/local/cnts/epics/operations/bin/printlog.sh"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 10
+y 30
+w 330
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Print the current system log?"
+}
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 210
+y 80
+w 110
+h 30
+fgColor index 14
+bgColor index 10
+topShadowColor index 5
+botShadowColor index 14
+label "Cancel"
+font "helvetica-medium-r-18.0"
+3d
+endObjectProperties
+

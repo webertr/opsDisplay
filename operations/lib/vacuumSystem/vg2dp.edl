@@ -1,0 +1,247 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 823
+y 352
+w 180
+h 120
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 59
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 59
+botShadowColor index 59
+showGrid
+snapToGrid
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 10
+w 160
+h 100
+lineColor index 63
+fill
+fillColor index 63
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 20
+w 63
+h 15
+font "courier-bold-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Group 2"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 60
+w 59
+h 21
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 121
+y 59
+w 45
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "test:g2dp"
+visMin "1"
+visMax "2"
+value {
+  "Ready"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 121
+y 59
+w 27
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "test:g2dp"
+visMin "0"
+visMax "1"
+value {
+  "Off"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 40
+w 126
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Diffusion Pump"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 80
+w 72
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Cooling:"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 100
+y 80
+w 27
+h 15
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 101
+y 79
+w 18
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "test:PSMC:Power:Read"
+visMin "1"
+visMax "2"
+value {
+  "On"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 101
+y 79
+w 27
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "test:PSMC:Power:Read"
+visMin "0"
+visMax "1"
+value {
+  "Off"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 20
+y 60
+w 90
+h 15
+font "courier-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Pump Mode:"
+}
+autoSize
+endObjectProperties
+

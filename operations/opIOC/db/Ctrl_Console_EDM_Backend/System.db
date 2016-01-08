@@ -1,0 +1,5 @@
+record(stringin, "CCC:OpsDisplay:System:TimeStamp") {
+  field(SCAN, "Passive")
+  field(DTYP, "Soft Timestamp")
+  field(INP, "@%m-%d-%y %H:%M:%S.%01f")
+}

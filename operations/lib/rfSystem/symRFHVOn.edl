@@ -1,0 +1,258 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 0
+y 53
+w 1600
+h 1106
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 0
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 85
+y 45
+w 225
+h 45
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 85
+y 45
+w 225
+h 45
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 375
+y 50
+w 220
+h 40
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 375
+y 50
+w 220
+h 40
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 400
+y 60
+w 185
+h 20
+lineColor index 14
+fill
+fillColor index 20
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 380
+y 55
+w 30
+h 30
+lineColor index 14
+fill
+fillColor index 20
+lineWidth 2
+closePolygon
+numPoints 5
+xPoints {
+  0 395
+  1 380
+  2 395
+  3 410
+  4 395
+}
+yPoints {
+  0 55
+  1 70
+  2 85
+  3 70
+  4 55
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 415
+y 60
+w 163
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RF HV PS NOT On"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 645
+y 50
+w 225
+h 45
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 645
+y 50
+w 225
+h 45
+lineColor index 14
+fillColor index 0
+invisible
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 670
+y 60
+w 185
+h 20
+lineColor index 18
+fill
+fillColor index 58
+lineWidth 2
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 650
+y 55
+w 30
+h 30
+lineColor index 18
+fill
+fillColor index 16
+lineWidth 2
+closePolygon
+numPoints 5
+xPoints {
+  0 665
+  1 650
+  2 665
+  3 680
+  4 665
+}
+yPoints {
+  0 55
+  1 70
+  2 85
+  3 70
+  4 55
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 710
+y 60
+w 117
+h 21
+font "helvetica-bold-r-18.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "RF HV PS On"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+

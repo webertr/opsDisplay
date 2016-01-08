@@ -1,0 +1,26 @@
+#! /bin/sh
+
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/bin/X11
+
+if [ -f /usr/local/cnts/epics/base/startup/Site.bashrc ]; then
+  . /usr/local/cnts/epics/base/startup/Site.bashrc
+fi
+FPATH=/usr/local/cnts/epics/operations/var
+
+DATESTR=` date +%Y.%b.%d.%H.%M `
+
+logger -i -s "opslog timestamp will be $DATESTR"
+
+if [ -f $FPATH/log/system/temp.log ]; then 
+	cat $FPATH/log/system/temp.log >> "$FPATH/log/system/opr_$DATESTR.log"
+fi
+
+if [ -f $FPATH/whiteboard.txt ]; then 
+	cat $FPATH/whiteboard.txt >> "$FPATH/log/system/opr_$DATESTR.log"
+fi
+
+if [ ! -f $FPATH/log/blank.log ]; then
+	touch $FPATH/log/blank.log
+fi
+cp $FPATH/log/blank.log $FPATH/log/system/temp.log
+
